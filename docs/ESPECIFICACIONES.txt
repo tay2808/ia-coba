@@ -1,0 +1,84 @@
+======================================================
+DOCUMENTO DE ARQUITECTURA Y ESPECIFICACIONES - COBAEV IA
+======================================================
+
+Como equipo multidisciplinario (Arquitecto de Software, Desarrolladores, Especialistas en IA/RAG, Diseño y Educación), hemos analizado los requerimientos para la aplicación "COBAEV IA". A continuación, se documentan las decisiones técnicas, la arquitectura y el plan de implementación para garantizar un funcionamiento 100% OFFLINE.
+
+------------------------------------------------------
+1. DECISIONES TÉCNICAS Y ARQUITECTURA
+------------------------------------------------------
+
+1.1. Stack Principal (Frontend & Puente Nativo)
+- Framework: React Native (Bare Workflow / Expo Prebuild).
+- Lenguaje: TypeScript para la lógica de negocio, Kotlin/C++ para los módulos nativos de IA y RAG.
+- Razón: React Native permite una excelente interfaz de usuario moderna (UX/UI), mientras que el Bare Workflow es obligatorio para integrar librerías nativas de C++ que ejecuten los modelos locales eficientemente.
+
+1.2. Motor de Inferencia LLM Local
+- Tecnología: llama.cpp (a través de wrappers nativos como llama.rn o integración propia vía JNI/C++).
+- Modelos recomendados: Llama-3.2-1B-Instruct-GGUF o Qwen2.5-1.5B-GGUF (Cuantizados en Q4_K_M).
+- Razón: llama.cpp es el estándar de oro actual para ejecutar modelos en dispositivos móviles con bajo consumo de RAM y batería. Soporta streaming de tokens nativo.
+
+1.3. Motor OCR Offline
+- Tecnología: Google ML Kit Text Recognition V2 (On-Device).
+- Razón: Funciona completamente sin internet, es altamente preciso en español e inglés, y está optimizado para dispositivos Android sin drenar la batería.
+
+1.4. Base de Datos Local
+- Tecnología: WatermelonDB (construida sobre SQLite).
+- Razón: Está diseñada específicamente para aplicaciones React Native offline-first. Soporta bases de datos grandes, consultas rápidas y es lazy-loaded, ideal para historiales de chat y almacenamiento del currículo.
+
+1.5. Sistema RAG Local (Embeddings y Base Vectorial)
+- Embeddings: Ejecución de un modelo ligero (ej. all-MiniLM-L6-v2) a través de ONNX Runtime Mobile.
+- Base Vectorial: sqlite-vec (extensión vectorial ultraligera para SQLite) o un índice HNSW en memoria (FAISS adaptado a C++).
+- Razón: Permite realizar búsquedas semánticas (cosine similarity) directamente en el dispositivo en milisegundos, vinculando documentos, PDFs y temarios del COBAEV sin latencia de red.
+
+------------------------------------------------------
+2. ESPECIFICACIONES DEL SISTEMA
+------------------------------------------------------
+
+- MODO OFFLINE ESTRICTO: La app no integrará Firebase Auth, OpenAI ni APIs externas. Toda la lógica reside en el dispositivo.
+- HUMANIZADOR DE TEXTOS: Módulo especializado en el prompt del sistema que ajusta el tono a "Estudiante COBAEV" (16 años), "Profesional", "Casual", etc., sin perder el sentido original ni generar un lenguaje robótico.
+- MULTIMODALIDAD SIMULADA / VISIÓN: Uso de ML Kit para extraer texto y estructura de fotos/capturas, pasándolo como contexto al LLM local para analizar ejercicios o tareas.
+- GESTOR DE MODELOS (Model Manager): Interfaz para que el usuario importe paquetes GGUF desde su almacenamiento y verifique el uso de RAM.
+- ACTUALIZACIONES CURRICULARES: Archivos `.pack` o `.zip` que contienen JSON con materias, guías y embeddings precalculados.
+- HERRAMIENTAS DE ESTUDIO: Quizzes offline, flashcards, explicador paso a paso, detector de tono y corrección de redacción.
+
+------------------------------------------------------
+3. PLAN DE IMPLEMENTACIÓN (Fases del MVP)
+------------------------------------------------------
+
+Fase 1: Infraestructura y Modelos
+1. Configuración del proyecto React Native (Bare Workflow).
+2. Implementación de WatermelonDB / SQLite local.
+3. Creación del Model Manager (Importación y validación de GGUF).
+4. Integración de llama.cpp (Inferencia LLM local y Streaming).
+
+Fase 2: Interfaz y Experiencia de Usuario (Chat)
+5. Pantallas principales (Inicio, Chat, Materias, Herramientas).
+6. Implementación del Chat (texto, historial, preservación de contexto).
+
+Fase 3: RAG y Procesamiento de Documentos
+7. Integración de ONNX Runtime para embeddings locales.
+8. Implementación de sqlite-vec para almacenamiento y búsqueda vectorial.
+9. Módulo de procesamiento de archivos (TXT, PDF, DOCX).
+10. Integración de Google ML Kit para OCR y recorte inteligente de fotografías.
+
+Fase 4: Lógica de Negocio y Currículo COBAEV
+11. Estructuración del currículo COBAEV 2026-B.
+12. Motor de importación de paquetes curriculares (JSON/ZIP).
+13. Desarrollo del "Humanizador de Textos" y perfiles de tono.
+14. Implementación de herramientas de estudio (Quizzes, Flashcards).
+
+Fase 5: Pruebas, Optimización y Empaquetado
+15. Gestión de rendimiento (Control de temperatura, RAM, truncamiento de contexto).
+16. PRUEBAS EN MODO AVIÓN ESTRICTO (Validación 100% offline).
+17. Compilación de APK y AAB (Split de Model Pack y App base).
+18. Redacción de README técnico y scripts de empaquetado del lado del PC.
+
+------------------------------------------------------
+4. NOTAS DE SEGURIDAD Y PRIVACIDAD
+------------------------------------------------------
+- Todos los documentos y fotografías procesadas se eliminan de la caché temporal tras su análisis o se almacenan encriptados en el sandbox de la app.
+- No se recopila telemetría de las conversaciones.
+- Posibilidad de exportar un backup local (.zip) con los progresos y chats del usuario.
+
+¡La arquitectura está lista y el desarrollo del MVP puede comenzar siguiendo estos lineamientos estrictos de privacidad y funcionamiento local!

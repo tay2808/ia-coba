@@ -1,0 +1,6 @@
+{
+  "id": "ejemplo-quimica",
+  "name": "Paquete de ejemplo: La materia y sus interacciones",
+  "curriculumVersion": "2026-B",
+  "description": "Paquete de demostración para probar el importador y el RAG."
+}

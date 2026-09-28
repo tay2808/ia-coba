@@ -1,0 +1,1484 @@
+[
+ {
+  "id": "lyc-1",
+  "name": "Lengua y Comunicación I",
+  "semester": 1,
+  "area": "Lengua y Comunicación",
+  "description": "Comprensión lectora y producción de textos.",
+  "units": [
+   {
+    "id": "lyc-1-u1",
+    "title": "Lectura y comprensión",
+    "topics": [
+     {
+      "id": "lyc-1-u1-t1",
+      "title": "Tipos de texto"
+     },
+     {
+      "id": "lyc-1-u1-t2",
+      "title": "Idea principal e ideas secundarias"
+     },
+     {
+      "id": "lyc-1-u1-t3",
+      "title": "Inferencias"
+     }
+    ]
+   },
+   {
+    "id": "lyc-1-u2",
+    "title": "Producción de textos",
+    "topics": [
+     {
+      "id": "lyc-1-u2-t1",
+      "title": "Planeación del texto"
+     },
+     {
+      "id": "lyc-1-u2-t2",
+      "title": "Coherencia y cohesión"
+     },
+     {
+      "id": "lyc-1-u2-t3",
+      "title": "Revisión y corrección"
+     }
+    ]
+   }
+  ],
+  "quizzes": [
+   {
+    "id": "lyc-1-q1",
+    "question": "¿Qué elemento expresa la idea más importante de un párrafo?",
+    "options": [
+     "La idea principal",
+     "Un ejemplo",
+     "Un conector",
+     "El título del libro"
+    ],
+    "answerIndex": 0,
+    "explanation": "La idea principal resume lo esencial del párrafo."
+   },
+   {
+    "id": "lyc-1-q2",
+    "question": "¿Cuál es un conector de causa?",
+    "options": [
+     "Sin embargo",
+     "Porque",
+     "Finalmente",
+     "Además"
+    ],
+    "answerIndex": 1,
+    "explanation": "«Porque» introduce la causa de algo."
+   }
+  ],
+  "flashcards": [
+   {
+    "id": "lyc-1-f1",
+    "front": "Coherencia",
+    "back": "Relación lógica entre las ideas de un texto."
+   },
+   {
+    "id": "lyc-1-f2",
+    "front": "Cohesión",
+    "back": "Uso de conectores y referencias que enlazan las partes del texto."
+   }
+  ]
+ },
+ {
+  "id": "ing-1",
+  "name": "Inglés I",
+  "semester": 1,
+  "area": "Inglés",
+  "description": "Comunicación básica en inglés.",
+  "units": [
+   {
+    "id": "ing-1-u1",
+    "title": "Presentaciones personales",
+    "topics": [
+     {
+      "id": "ing-1-u1-t1",
+      "title": "Verb to be"
+     },
+     {
+      "id": "ing-1-u1-t2",
+      "title": "Pronombres personales"
+     },
+     {
+      "id": "ing-1-u1-t3",
+      "title": "Saludos"
+     }
+    ]
+   },
+   {
+    "id": "ing-1-u2",
+    "title": "Rutinas",
+    "topics": [
+     {
+      "id": "ing-1-u2-t1",
+      "title": "Presente simple"
+     },
+     {
+      "id": "ing-1-u2-t2",
+      "title": "Adverbios de frecuencia"
+     }
+    ]
+   }
+  ],
+  "quizzes": [
+   {
+    "id": "ing-1-q1",
+    "question": "Choose the correct form: She ___ a student.",
+    "options": [
+     "am",
+     "is",
+     "are",
+     "be"
+    ],
+    "answerIndex": 1,
+    "explanation": "Con he/she/it se usa «is»."
+   },
+   {
+    "id": "ing-1-q2",
+    "question": "¿Cuál es el presente simple de «to go» con «he»?",
+    "options": [
+     "go",
+     "goes",
+     "going",
+     "went"
+    ],
+    "answerIndex": 1,
+    "explanation": "En tercera persona singular se agrega -es."
+   }
+  ],
+  "flashcards": [
+   {
+    "id": "ing-1-f1",
+    "front": "I am / You are / He is",
+    "back": "Conjugación del verbo to be en presente."
+   },
+   {
+    "id": "ing-1-f2",
+    "front": "Always, usually, sometimes, never",
+    "back": "Adverbios de frecuencia."
+   }
+  ]
+ },
+ {
+  "id": "pm-1",
+  "name": "Pensamiento Matemático I",
+  "semester": 1,
+  "area": "Pensamiento Matemático",
+  "description": "Pensamiento aritmético, estadístico y probabilístico.",
+  "units": [
+   {
+    "id": "pm-1-u1",
+    "title": "Aritmética",
+    "topics": [
+     {
+      "id": "pm-1-u1-t1",
+      "title": "Números reales"
+     },
+     {
+      "id": "pm-1-u1-t2",
+      "title": "Operaciones con fracciones"
+     },
+     {
+      "id": "pm-1-u1-t3",
+      "title": "Razones y proporciones"
+     },
+     {
+      "id": "pm-1-u1-t4",
+      "title": "Porcentajes"
+     }
+    ]
+   },
+   {
+    "id": "pm-1-u2",
+    "title": "Estadística y probabilidad",
+    "topics": [
+     {
+      "id": "pm-1-u2-t1",
+      "title": "Medidas de tendencia central"
+     },
+     {
+      "id": "pm-1-u2-t2",
+      "title": "Representación de datos"
+     },
+     {
+      "id": "pm-1-u2-t3",
+      "title": "Probabilidad clásica"
+     }
+    ]
+   }
+  ],
+  "quizzes": [
+   {
+    "id": "pm-1-q1",
+    "question": "¿Cuánto es el 20% de 150?",
+    "options": [
+     "20",
+     "30",
+     "15",
+     "45"
+    ],
+    "answerIndex": 1,
+    "explanation": "150 × 0.20 = 30."
+   },
+   {
+    "id": "pm-1-q2",
+    "question": "La media de 4, 6 y 8 es:",
+    "options": [
+     "5",
+     "6",
+     "7",
+     "18"
+    ],
+    "answerIndex": 1,
+    "explanation": "(4+6+8)/3 = 6."
+   },
+   {
+    "id": "pm-1-q3",
+    "question": "Al lanzar un dado, ¿cuál es la probabilidad de obtener un número par?",
+    "options": [
+     "1/6",
+     "1/3",
+     "1/2",
+     "2/3"
+    ],
+    "answerIndex": 2,
+    "explanation": "Hay 3 pares de 6 resultados: 3/6 = 1/2."
+   }
+  ],
+  "flashcards": [
+   {
+    "id": "pm-1-f1",
+    "front": "Media",
+    "back": "Suma de los datos dividida entre el número de datos."
+   },
+   {
+    "id": "pm-1-f2",
+    "front": "Moda",
+    "back": "Dato que más se repite."
+   },
+   {
+    "id": "pm-1-f3",
+    "front": "Mediana",
+    "back": "Valor central de los datos ordenados."
+   }
+  ]
+ },
+ {
+  "id": "cd-1",
+  "name": "Cultura Digital I",
+  "semester": 1,
+  "area": "Cultura Digital",
+  "description": "Ciudadanía digital y herramientas de productividad.",
+  "units": [
+   {
+    "id": "cd-1-u1",
+    "title": "Ciudadanía digital",
+    "topics": [
+     {
+      "id": "cd-1-u1-t1",
+      "title": "Identidad digital"
+     },
+     {
+      "id": "cd-1-u1-t2",
+      "title": "Seguridad y privacidad"
+     },
+     {
+      "id": "cd-1-u1-t3",
+      "title": "Uso responsable"
+     }
+    ]
+   },
+   {
+    "id": "cd-1-u2",
+    "title": "Herramientas digitales",
+    "topics": [
+     {
+      "id": "cd-1-u2-t1",
+      "title": "Procesador de textos"
+     },
+     {
+      "id": "cd-1-u2-t2",
+      "title": "Hoja de cálculo"
+     },
+     {
+      "id": "cd-1-u2-t3",
+      "title": "Presentaciones"
+     }
+    ]
+   }
+  ],
+  "quizzes": [
+   {
+    "id": "cd-1-q1",
+    "question": "¿Qué es una contraseña segura?",
+    "options": [
+     "Tu fecha de nacimiento",
+     "Una combinación larga de letras, números y símbolos",
+     "«123456»",
+     "Tu nombre"
+    ],
+    "answerIndex": 1,
+    "explanation": "Las contraseñas largas y variadas son más difíciles de adivinar."
+   }
+  ],
+  "flashcards": [
+   {
+    "id": "cd-1-f1",
+    "front": "Huella digital",
+    "back": "Rastro de información que dejamos al usar internet."
+   }
+  ]
+ },
+ {
+  "id": "cn-1",
+  "name": "La materia y sus interacciones",
+  "semester": 1,
+  "area": "Ciencias Naturales, Experimentales y Tecnología",
+  "description": "Propiedades de la materia, átomos y enlaces.",
+  "units": [
+   {
+    "id": "cn-1-u1",
+    "title": "La materia",
+    "topics": [
+     {
+      "id": "cn-1-u1-t1",
+      "title": "Propiedades de la materia"
+     },
+     {
+      "id": "cn-1-u1-t2",
+      "title": "Estados de agregación"
+     },
+     {
+      "id": "cn-1-u1-t3",
+      "title": "Mezclas y sustancias puras"
+     }
+    ]
+   },
+   {
+    "id": "cn-1-u2",
+    "title": "Estructura atómica",
+    "topics": [
+     {
+      "id": "cn-1-u2-t1",
+      "title": "Modelos atómicos"
+     },
+     {
+      "id": "cn-1-u2-t2",
+      "title": "Tabla periódica"
+     },
+     {
+      "id": "cn-1-u2-t3",
+      "title": "Enlaces químicos"
+     }
+    ]
+   }
+  ],
+  "quizzes": [
+   {
+    "id": "cn-1-q1",
+    "question": "¿Qué partícula tiene carga negativa?",
+    "options": [
+     "Protón",
+     "Neutrón",
+     "Electrón",
+     "Núcleo"
+    ],
+    "answerIndex": 2,
+    "explanation": "El electrón tiene carga negativa."
+   },
+   {
+    "id": "cn-1-q2",
+    "question": "El agua (H₂O) es un ejemplo de:",
+    "options": [
+     "Elemento",
+     "Compuesto",
+     "Mezcla heterogénea",
+     "Aleación"
+    ],
+    "answerIndex": 1,
+    "explanation": "Está formada por dos elementos químicamente unidos."
+   }
+  ],
+  "flashcards": [
+   {
+    "id": "cn-1-f1",
+    "front": "Átomo",
+    "back": "Unidad más pequeña de un elemento que conserva sus propiedades."
+   },
+   {
+    "id": "cn-1-f2",
+    "front": "Número atómico",
+    "back": "Cantidad de protones en el núcleo de un átomo."
+   }
+  ]
+ },
+ {
+  "id": "hum-1",
+  "name": "Humanidades I",
+  "semester": 1,
+  "area": "Humanidades",
+  "description": "Reflexión filosófica sobre la persona y la comunidad.",
+  "units": [
+   {
+    "id": "hum-1-u1",
+    "title": "El ser humano",
+    "topics": [
+     {
+      "id": "hum-1-u1-t1",
+      "title": "¿Qué es la filosofía?"
+     },
+     {
+      "id": "hum-1-u1-t2",
+      "title": "Identidad y persona"
+     },
+     {
+      "id": "hum-1-u1-t3",
+      "title": "Libertad y responsabilidad"
+     }
+    ]
+   }
+  ],
+  "quizzes": [],
+  "flashcards": [
+   {
+    "id": "hum-1-f1",
+    "front": "Ética",
+    "back": "Rama de la filosofía que reflexiona sobre la conducta y los valores."
+   }
+  ]
+ },
+ {
+  "id": "cs-1",
+  "name": "Ciencias Sociales I",
+  "semester": 1,
+  "area": "Ciencias Sociales",
+  "description": "Análisis de la realidad social.",
+  "units": [
+   {
+    "id": "cs-1-u1",
+    "title": "Sociedad y cultura",
+    "topics": [
+     {
+      "id": "cs-1-u1-t1",
+      "title": "Conceptos básicos de las ciencias sociales"
+     },
+     {
+      "id": "cs-1-u1-t2",
+      "title": "Grupos sociales"
+     },
+     {
+      "id": "cs-1-u1-t3",
+      "title": "Diversidad cultural"
+     }
+    ]
+   }
+  ],
+  "quizzes": [],
+  "flashcards": [
+   {
+    "id": "cs-1-f1",
+    "front": "Sociedad",
+    "back": "Conjunto de personas que comparten normas, cultura e instituciones."
+   }
+  ]
+ },
+ {
+  "id": "lyc-2",
+  "name": "Lengua y Comunicación II",
+  "semester": 2,
+  "area": "Lengua y Comunicación",
+  "description": "Argumentación y textos académicos.",
+  "units": [
+   {
+    "id": "lyc-2-u1",
+    "title": "Argumentación",
+    "topics": [
+     {
+      "id": "lyc-2-u1-t1",
+      "title": "Tesis y argumentos"
+     },
+     {
+      "id": "lyc-2-u1-t2",
+      "title": "Falacias"
+     },
+     {
+      "id": "lyc-2-u1-t3",
+      "title": "Ensayo"
+     }
+    ]
+   },
+   {
+    "id": "lyc-2-u2",
+    "title": "Investigación documental",
+    "topics": [
+     {
+      "id": "lyc-2-u2-t1",
+      "title": "Búsqueda de fuentes"
+     },
+     {
+      "id": "lyc-2-u2-t2",
+      "title": "Citas y referencias"
+     }
+    ]
+   }
+  ],
+  "quizzes": [
+   {
+    "id": "lyc-2-q1",
+    "question": "En un texto argumentativo, la tesis es:",
+    "options": [
+     "Un ejemplo",
+     "La postura que se defiende",
+     "La bibliografía",
+     "Un resumen"
+    ],
+    "answerIndex": 1,
+    "explanation": "La tesis es la idea que el autor defiende."
+   }
+  ],
+  "flashcards": [
+   {
+    "id": "lyc-2-f1",
+    "front": "Falacia",
+    "back": "Argumento que parece válido pero no lo es."
+   }
+  ]
+ },
+ {
+  "id": "ing-2",
+  "name": "Inglés II",
+  "semester": 2,
+  "area": "Inglés",
+  "description": "Pasado y descripción de experiencias.",
+  "units": [
+   {
+    "id": "ing-2-u1",
+    "title": "Past events",
+    "topics": [
+     {
+      "id": "ing-2-u1-t1",
+      "title": "Past simple"
+     },
+     {
+      "id": "ing-2-u1-t2",
+      "title": "Regular and irregular verbs"
+     }
+    ]
+   },
+   {
+    "id": "ing-2-u2",
+    "title": "Descriptions",
+    "topics": [
+     {
+      "id": "ing-2-u2-t1",
+      "title": "Adjectives"
+     },
+     {
+      "id": "ing-2-u2-t2",
+      "title": "Comparatives"
+     }
+    ]
+   }
+  ],
+  "quizzes": [
+   {
+    "id": "ing-2-q1",
+    "question": "Past simple of «eat»:",
+    "options": [
+     "eated",
+     "ate",
+     "eaten",
+     "eats"
+    ],
+    "answerIndex": 1,
+    "explanation": "«Eat» es irregular: ate."
+   }
+  ],
+  "flashcards": []
+ },
+ {
+  "id": "pm-2",
+  "name": "Pensamiento Matemático II",
+  "semester": 2,
+  "area": "Pensamiento Matemático",
+  "description": "Pensamiento algebraico.",
+  "units": [
+   {
+    "id": "pm-2-u1",
+    "title": "Álgebra",
+    "topics": [
+     {
+      "id": "pm-2-u1-t1",
+      "title": "Expresiones algebraicas"
+     },
+     {
+      "id": "pm-2-u1-t2",
+      "title": "Productos notables"
+     },
+     {
+      "id": "pm-2-u1-t3",
+      "title": "Factorización"
+     }
+    ]
+   },
+   {
+    "id": "pm-2-u2",
+    "title": "Ecuaciones",
+    "topics": [
+     {
+      "id": "pm-2-u2-t1",
+      "title": "Ecuaciones lineales"
+     },
+     {
+      "id": "pm-2-u2-t2",
+      "title": "Sistemas de ecuaciones 2x2"
+     },
+     {
+      "id": "pm-2-u2-t3",
+      "title": "Ecuaciones cuadráticas"
+     }
+    ]
+   }
+  ],
+  "quizzes": [
+   {
+    "id": "pm-2-q1",
+    "question": "Resuelve: 2x + 3 = 11",
+    "options": [
+     "x = 3",
+     "x = 4",
+     "x = 7",
+     "x = 5"
+    ],
+    "answerIndex": 1,
+    "explanation": "2x = 8, entonces x = 4."
+   },
+   {
+    "id": "pm-2-q2",
+    "question": "(a + b)² es igual a:",
+    "options": [
+     "a² + b²",
+     "a² + 2ab + b²",
+     "2a + 2b",
+     "a² − b²"
+    ],
+    "answerIndex": 1,
+    "explanation": "Binomio al cuadrado."
+   }
+  ],
+  "flashcards": [
+   {
+    "id": "pm-2-f1",
+    "front": "Binomio al cuadrado",
+    "back": "(a + b)² = a² + 2ab + b²"
+   },
+   {
+    "id": "pm-2-f2",
+    "front": "Fórmula general",
+    "back": "x = (−b ± √(b² − 4ac)) / 2a"
+   }
+  ]
+ },
+ {
+  "id": "cd-2",
+  "name": "Cultura Digital II",
+  "semester": 2,
+  "area": "Cultura Digital",
+  "description": "Pensamiento computacional.",
+  "units": [
+   {
+    "id": "cd-2-u1",
+    "title": "Pensamiento computacional",
+    "topics": [
+     {
+      "id": "cd-2-u1-t1",
+      "title": "Algoritmos"
+     },
+     {
+      "id": "cd-2-u1-t2",
+      "title": "Diagramas de flujo"
+     },
+     {
+      "id": "cd-2-u1-t3",
+      "title": "Introducción a la programación"
+     }
+    ]
+   }
+  ],
+  "quizzes": [
+   {
+    "id": "cd-2-q1",
+    "question": "Un algoritmo es:",
+    "options": [
+     "Un virus",
+     "Una secuencia ordenada de pasos para resolver un problema",
+     "Un tipo de computadora",
+     "Una red social"
+    ],
+    "answerIndex": 1,
+    "explanation": ""
+   }
+  ],
+  "flashcards": []
+ },
+ {
+  "id": "cn-2",
+  "name": "Conservación de la energía y sus interacciones con la materia",
+  "semester": 2,
+  "area": "Ciencias Naturales, Experimentales y Tecnología",
+  "description": "Energía, trabajo y cambios físicos.",
+  "units": [
+   {
+    "id": "cn-2-u1",
+    "title": "Energía",
+    "topics": [
+     {
+      "id": "cn-2-u1-t1",
+      "title": "Tipos de energía"
+     },
+     {
+      "id": "cn-2-u1-t2",
+      "title": "Conservación de la energía"
+     },
+     {
+      "id": "cn-2-u1-t3",
+      "title": "Trabajo y potencia"
+     }
+    ]
+   },
+   {
+    "id": "cn-2-u2",
+    "title": "Calor y temperatura",
+    "topics": [
+     {
+      "id": "cn-2-u2-t1",
+      "title": "Transferencia de calor"
+     },
+     {
+      "id": "cn-2-u2-t2",
+      "title": "Escalas de temperatura"
+     }
+    ]
+   }
+  ],
+  "quizzes": [
+   {
+    "id": "cn-2-q1",
+    "question": "La unidad de energía en el SI es:",
+    "options": [
+     "Newton",
+     "Watt",
+     "Joule",
+     "Pascal"
+    ],
+    "answerIndex": 2,
+    "explanation": "La energía se mide en joules (J)."
+   }
+  ],
+  "flashcards": [
+   {
+    "id": "cn-2-f1",
+    "front": "Energía cinética",
+    "back": "Ec = ½ m v²"
+   },
+   {
+    "id": "cn-2-f2",
+    "front": "Ley de conservación de la energía",
+    "back": "La energía no se crea ni se destruye, solo se transforma."
+   }
+  ]
+ },
+ {
+  "id": "pm-3",
+  "name": "Pensamiento Matemático III",
+  "semester": 3,
+  "area": "Pensamiento Matemático",
+  "description": "Geometría y trigonometría.",
+  "units": [
+   {
+    "id": "pm-3-u1",
+    "title": "Geometría",
+    "topics": [
+     {
+      "id": "pm-3-u1-t1",
+      "title": "Ángulos y triángulos"
+     },
+     {
+      "id": "pm-3-u1-t2",
+      "title": "Teorema de Pitágoras"
+     },
+     {
+      "id": "pm-3-u1-t3",
+      "title": "Áreas y volúmenes"
+     }
+    ]
+   },
+   {
+    "id": "pm-3-u2",
+    "title": "Trigonometría",
+    "topics": [
+     {
+      "id": "pm-3-u2-t1",
+      "title": "Razones trigonométricas"
+     },
+     {
+      "id": "pm-3-u2-t2",
+      "title": "Ley de senos y cosenos"
+     }
+    ]
+   }
+  ],
+  "quizzes": [
+   {
+    "id": "pm-3-q1",
+    "question": "Catetos 3 y 4: ¿cuánto mide la hipotenusa?",
+    "options": [
+     "5",
+     "7",
+     "6",
+     "12"
+    ],
+    "answerIndex": 0,
+    "explanation": "√(9+16) = √25 = 5."
+   }
+  ],
+  "flashcards": [
+   {
+    "id": "pm-3-f1",
+    "front": "Teorema de Pitágoras",
+    "back": "c² = a² + b²"
+   },
+   {
+    "id": "pm-3-f2",
+    "front": "Seno",
+    "back": "Cateto opuesto / hipotenusa"
+   }
+  ]
+ },
+ {
+  "id": "lyc-3",
+  "name": "Lengua y Comunicación III",
+  "semester": 3,
+  "area": "Lengua y Comunicación",
+  "description": "Comunicación oral y textos especializados.",
+  "units": [
+   {
+    "id": "lyc-3-u1",
+    "title": "Comunicación oral",
+    "topics": [
+     {
+      "id": "lyc-3-u1-t1",
+      "title": "Exposición"
+     },
+     {
+      "id": "lyc-3-u1-t2",
+      "title": "Debate"
+     }
+    ]
+   },
+   {
+    "id": "lyc-3-u2",
+    "title": "Textos especializados",
+    "topics": [
+     {
+      "id": "lyc-3-u2-t1",
+      "title": "Reseña"
+     },
+     {
+      "id": "lyc-3-u2-t2",
+      "title": "Informe"
+     }
+    ]
+   }
+  ],
+  "quizzes": [],
+  "flashcards": []
+ },
+ {
+  "id": "ing-3",
+  "name": "Inglés III",
+  "semester": 3,
+  "area": "Inglés",
+  "description": "Planes y predicciones.",
+  "units": [
+   {
+    "id": "ing-3-u1",
+    "title": "Future",
+    "topics": [
+     {
+      "id": "ing-3-u1-t1",
+      "title": "Will"
+     },
+     {
+      "id": "ing-3-u1-t2",
+      "title": "Going to"
+     }
+    ]
+   },
+   {
+    "id": "ing-3-u2",
+    "title": "Experiences",
+    "topics": [
+     {
+      "id": "ing-3-u2-t1",
+      "title": "Present perfect"
+     }
+    ]
+   }
+  ],
+  "quizzes": [],
+  "flashcards": []
+ },
+ {
+  "id": "cn-3",
+  "name": "Ecosistemas: interacciones, energía y dinámica",
+  "semester": 3,
+  "area": "Ciencias Naturales, Experimentales y Tecnología",
+  "description": "Ecología y flujo de energía.",
+  "units": [
+   {
+    "id": "cn-3-u1",
+    "title": "Ecosistemas",
+    "topics": [
+     {
+      "id": "cn-3-u1-t1",
+      "title": "Componentes bióticos y abióticos"
+     },
+     {
+      "id": "cn-3-u1-t2",
+      "title": "Cadenas y redes tróficas"
+     },
+     {
+      "id": "cn-3-u1-t3",
+      "title": "Ciclos biogeoquímicos"
+     }
+    ]
+   }
+  ],
+  "quizzes": [
+   {
+    "id": "cn-3-q1",
+    "question": "Los productores en una cadena alimenticia son:",
+    "options": [
+     "Los carnívoros",
+     "Las plantas y organismos fotosintéticos",
+     "Los hongos",
+     "Los herbívoros"
+    ],
+    "answerIndex": 1,
+    "explanation": "Producen su alimento mediante fotosíntesis."
+   }
+  ],
+  "flashcards": [
+   {
+    "id": "cn-3-f1",
+    "front": "Fotosíntesis",
+    "back": "Proceso en el que las plantas transforman luz, agua y CO₂ en glucosa y oxígeno."
+   }
+  ]
+ },
+ {
+  "id": "ch-1",
+  "name": "Conciencia Histórica I",
+  "semester": 3,
+  "area": "Conciencia Histórica",
+  "description": "Perspectivas del México antiguo en los contextos globales.",
+  "units": [
+   {
+    "id": "ch-1-u1",
+    "title": "México antiguo",
+    "topics": [
+     {
+      "id": "ch-1-u1-t1",
+      "title": "Mesoamérica"
+     },
+     {
+      "id": "ch-1-u1-t2",
+      "title": "Culturas originarias"
+     },
+     {
+      "id": "ch-1-u1-t3",
+      "title": "Contacto y conquista"
+     }
+    ]
+   }
+  ],
+  "quizzes": [],
+  "flashcards": []
+ },
+ {
+  "id": "pm-4",
+  "name": "Temas Selectos de Matemáticas I",
+  "semester": 4,
+  "area": "Pensamiento Matemático",
+  "description": "Geometría analítica y funciones.",
+  "units": [
+   {
+    "id": "pm-4-u1",
+    "title": "Geometría analítica",
+    "topics": [
+     {
+      "id": "pm-4-u1-t1",
+      "title": "Plano cartesiano"
+     },
+     {
+      "id": "pm-4-u1-t2",
+      "title": "La recta"
+     },
+     {
+      "id": "pm-4-u1-t3",
+      "title": "Cónicas"
+     }
+    ]
+   },
+   {
+    "id": "pm-4-u2",
+    "title": "Funciones",
+    "topics": [
+     {
+      "id": "pm-4-u2-t1",
+      "title": "Concepto de función"
+     },
+     {
+      "id": "pm-4-u2-t2",
+      "title": "Funciones lineales y cuadráticas"
+     }
+    ]
+   }
+  ],
+  "quizzes": [
+   {
+    "id": "pm-4-q1",
+    "question": "La pendiente de la recta que pasa por (0,0) y (2,4) es:",
+    "options": [
+     "1",
+     "2",
+     "4",
+     "0.5"
+    ],
+    "answerIndex": 1,
+    "explanation": "m = (4−0)/(2−0) = 2."
+   }
+  ],
+  "flashcards": [
+   {
+    "id": "pm-4-f1",
+    "front": "Pendiente",
+    "back": "m = (y₂ − y₁) / (x₂ − x₁)"
+   }
+  ]
+ },
+ {
+  "id": "ing-4",
+  "name": "Inglés IV",
+  "semester": 4,
+  "area": "Inglés",
+  "description": "Comunicación en contextos académicos.",
+  "units": [
+   {
+    "id": "ing-4-u1",
+    "title": "Academic English",
+    "topics": [
+     {
+      "id": "ing-4-u1-t1",
+      "title": "Modal verbs"
+     },
+     {
+      "id": "ing-4-u1-t2",
+      "title": "Conditionals"
+     }
+    ]
+   }
+  ],
+  "quizzes": [],
+  "flashcards": []
+ },
+ {
+  "id": "cn-4",
+  "name": "Reacciones químicas: conservación de la materia en la formación de nuevas sustancias",
+  "semester": 4,
+  "area": "Ciencias Naturales, Experimentales y Tecnología",
+  "description": "Reacciones y estequiometría.",
+  "units": [
+   {
+    "id": "cn-4-u1",
+    "title": "Reacciones químicas",
+    "topics": [
+     {
+      "id": "cn-4-u1-t1",
+      "title": "Tipos de reacciones"
+     },
+     {
+      "id": "cn-4-u1-t2",
+      "title": "Balanceo de ecuaciones"
+     },
+     {
+      "id": "cn-4-u1-t3",
+      "title": "Ley de conservación de la masa"
+     }
+    ]
+   }
+  ],
+  "quizzes": [
+   {
+    "id": "cn-4-q1",
+    "question": "Según la ley de conservación de la masa:",
+    "options": [
+     "La masa se pierde en la reacción",
+     "La masa de reactivos es igual a la de productos",
+     "Solo los gases conservan masa",
+     "La masa aumenta"
+    ],
+    "answerIndex": 1,
+    "explanation": "Lavoisier: la materia no se crea ni se destruye."
+   }
+  ],
+  "flashcards": []
+ },
+ {
+  "id": "ch-2",
+  "name": "Conciencia Histórica II",
+  "semester": 4,
+  "area": "Conciencia Histórica",
+  "description": "México durante el expansionismo capitalista.",
+  "units": [
+   {
+    "id": "ch-2-u1",
+    "title": "Siglos XIX y XX",
+    "topics": [
+     {
+      "id": "ch-2-u1-t1",
+      "title": "Independencia"
+     },
+     {
+      "id": "ch-2-u1-t2",
+      "title": "Reforma"
+     },
+     {
+      "id": "ch-2-u1-t3",
+      "title": "Porfiriato"
+     },
+     {
+      "id": "ch-2-u1-t4",
+      "title": "Revolución Mexicana"
+     }
+    ]
+   }
+  ],
+  "quizzes": [
+   {
+    "id": "ch-2-q1",
+    "question": "La Revolución Mexicana inició en:",
+    "options": [
+     "1810",
+     "1857",
+     "1910",
+     "1917"
+    ],
+    "answerIndex": 2,
+    "explanation": "Inició el 20 de noviembre de 1910."
+   }
+  ],
+  "flashcards": []
+ },
+ {
+  "id": "pm-5",
+  "name": "Temas Selectos de Matemáticas II",
+  "semester": 5,
+  "area": "Pensamiento Matemático",
+  "description": "Cálculo diferencial.",
+  "units": [
+   {
+    "id": "pm-5-u1",
+    "title": "Límites",
+    "topics": [
+     {
+      "id": "pm-5-u1-t1",
+      "title": "Concepto de límite"
+     },
+     {
+      "id": "pm-5-u1-t2",
+      "title": "Límites laterales"
+     }
+    ]
+   },
+   {
+    "id": "pm-5-u2",
+    "title": "Derivadas",
+    "topics": [
+     {
+      "id": "pm-5-u2-t1",
+      "title": "Concepto de derivada"
+     },
+     {
+      "id": "pm-5-u2-t2",
+      "title": "Reglas de derivación"
+     },
+     {
+      "id": "pm-5-u2-t3",
+      "title": "Aplicaciones"
+     }
+    ]
+   }
+  ],
+  "quizzes": [
+   {
+    "id": "pm-5-q1",
+    "question": "La derivada de x² es:",
+    "options": [
+     "x",
+     "2x",
+     "x³/3",
+     "2"
+    ],
+    "answerIndex": 1,
+    "explanation": "Regla de la potencia: d/dx xⁿ = n·xⁿ⁻¹."
+   }
+  ],
+  "flashcards": [
+   {
+    "id": "pm-5-f1",
+    "front": "Regla de la potencia",
+    "back": "d/dx xⁿ = n·xⁿ⁻¹"
+   }
+  ]
+ },
+ {
+  "id": "ing-5",
+  "name": "Inglés V",
+  "semester": 5,
+  "area": "Inglés",
+  "description": "Inglés para el trabajo y la vida académica.",
+  "units": [
+   {
+    "id": "ing-5-u1",
+    "title": "Professional English",
+    "topics": [
+     {
+      "id": "ing-5-u1-t1",
+      "title": "Passive voice"
+     },
+     {
+      "id": "ing-5-u1-t2",
+      "title": "Reported speech"
+     }
+    ]
+   }
+  ],
+  "quizzes": [],
+  "flashcards": []
+ },
+ {
+  "id": "cn-5",
+  "name": "La energía en los procesos de la vida diaria",
+  "semester": 5,
+  "area": "Ciencias Naturales, Experimentales y Tecnología",
+  "description": "Física aplicada: electricidad y magnetismo.",
+  "units": [
+   {
+    "id": "cn-5-u1",
+    "title": "Electricidad",
+    "topics": [
+     {
+      "id": "cn-5-u1-t1",
+      "title": "Carga eléctrica"
+     },
+     {
+      "id": "cn-5-u1-t2",
+      "title": "Ley de Ohm"
+     },
+     {
+      "id": "cn-5-u1-t3",
+      "title": "Circuitos"
+     }
+    ]
+   }
+  ],
+  "quizzes": [
+   {
+    "id": "cn-5-q1",
+    "question": "Según la ley de Ohm, V =",
+    "options": [
+     "I / R",
+     "I · R",
+     "R / I",
+     "I + R"
+    ],
+    "answerIndex": 1,
+    "explanation": "Voltaje = corriente × resistencia."
+   }
+  ],
+  "flashcards": [
+   {
+    "id": "cn-5-f1",
+    "front": "Ley de Ohm",
+    "back": "V = I · R"
+   }
+  ]
+ },
+ {
+  "id": "ch-3",
+  "name": "Conciencia Histórica III",
+  "semester": 5,
+  "area": "Conciencia Histórica",
+  "description": "La realidad actual en perspectiva histórica.",
+  "units": [
+   {
+    "id": "ch-3-u1",
+    "title": "México contemporáneo",
+    "topics": [
+     {
+      "id": "ch-3-u1-t1",
+      "title": "Siglo XX tardío"
+     },
+     {
+      "id": "ch-3-u1-t2",
+      "title": "Globalización"
+     },
+     {
+      "id": "ch-3-u1-t3",
+      "title": "Retos actuales"
+     }
+    ]
+   }
+  ],
+  "quizzes": [],
+  "flashcards": []
+ },
+ {
+  "id": "pm-6",
+  "name": "Temas Selectos de Matemáticas III",
+  "semester": 6,
+  "area": "Pensamiento Matemático",
+  "description": "Cálculo integral.",
+  "units": [
+   {
+    "id": "pm-6-u1",
+    "title": "Integrales",
+    "topics": [
+     {
+      "id": "pm-6-u1-t1",
+      "title": "Antiderivada"
+     },
+     {
+      "id": "pm-6-u1-t2",
+      "title": "Integral definida"
+     },
+     {
+      "id": "pm-6-u1-t3",
+      "title": "Aplicaciones del área bajo la curva"
+     }
+    ]
+   }
+  ],
+  "quizzes": [
+   {
+    "id": "pm-6-q1",
+    "question": "La integral de 2x dx es:",
+    "options": [
+     "x² + C",
+     "2x² + C",
+     "x + C",
+     "2 + C"
+    ],
+    "answerIndex": 0,
+    "explanation": "Porque la derivada de x² es 2x."
+   }
+  ],
+  "flashcards": []
+ },
+ {
+  "id": "cn-6",
+  "name": "Organismos: estructuras y procesos. Herencia y evolución biológica",
+  "semester": 6,
+  "area": "Ciencias Naturales, Experimentales y Tecnología",
+  "description": "Biología celular, genética y evolución.",
+  "units": [
+   {
+    "id": "cn-6-u1",
+    "title": "La célula",
+    "topics": [
+     {
+      "id": "cn-6-u1-t1",
+      "title": "Teoría celular"
+     },
+     {
+      "id": "cn-6-u1-t2",
+      "title": "Célula procariota y eucariota"
+     }
+    ]
+   },
+   {
+    "id": "cn-6-u2",
+    "title": "Herencia y evolución",
+    "topics": [
+     {
+      "id": "cn-6-u2-t1",
+      "title": "ADN"
+     },
+     {
+      "id": "cn-6-u2-t2",
+      "title": "Leyes de Mendel"
+     },
+     {
+      "id": "cn-6-u2-t3",
+      "title": "Selección natural"
+     }
+    ]
+   }
+  ],
+  "quizzes": [
+   {
+    "id": "cn-6-q1",
+    "question": "¿Qué organelo realiza la respiración celular?",
+    "options": [
+     "Ribosoma",
+     "Mitocondria",
+     "Núcleo",
+     "Vacuola"
+    ],
+    "answerIndex": 1,
+    "explanation": "La mitocondria produce ATP."
+   }
+  ],
+  "flashcards": [
+   {
+    "id": "cn-6-f1",
+    "front": "ADN",
+    "back": "Molécula que contiene la información genética."
+   },
+   {
+    "id": "cn-6-f2",
+    "front": "Selección natural",
+    "back": "Mecanismo evolutivo propuesto por Darwin."
+   }
+  ]
+ },
+ {
+  "id": "hum-6",
+  "name": "Humanidades III",
+  "semester": 6,
+  "area": "Humanidades",
+  "description": "Proyecto de vida y pensamiento crítico.",
+  "units": [
+   {
+    "id": "hum-6-u1",
+    "title": "Proyecto de vida",
+    "topics": [
+     {
+      "id": "hum-6-u1-t1",
+      "title": "Toma de decisiones"
+     },
+     {
+      "id": "hum-6-u1-t2",
+      "title": "Ética y sociedad"
+     }
+    ]
+   }
+  ],
+  "quizzes": [],
+  "flashcards": []
+ }
+]

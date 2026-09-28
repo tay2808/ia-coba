@@ -1,0 +1,6 @@
+# Herramientas de PC (no se incluyen en la app).
+sentence-transformers>=3.0
+numpy>=1.26
+pypdf>=4.0
+optimum[onnxruntime]>=1.21
+transformers>=4.44

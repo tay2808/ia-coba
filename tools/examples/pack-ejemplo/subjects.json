@@ -1,0 +1,38 @@
+[
+  {
+    "id": "cn-1",
+    "name": "La materia y sus interacciones",
+    "semester": 1,
+    "area": "Ciencias Naturales, Experimentales y Tecnología",
+    "description": "Propiedades de la materia, átomos y enlaces.",
+    "units": [
+      {
+        "id": "cn-1-u1",
+        "title": "La materia",
+        "topics": [
+          { "id": "cn-1-u1-t1", "title": "Estados de agregación", "summary": "Sólido, líquido, gaseoso y plasma." },
+          { "id": "cn-1-u1-t2", "title": "Mezclas y sustancias puras" }
+        ]
+      }
+    ],
+    "quizzes": [
+      {
+        "id": "ej-q1",
+        "question": "¿Cómo se llama el paso de sólido a líquido?",
+        "options": ["Evaporación", "Fusión", "Condensación", "Sublimación"],
+        "answerIndex": 1,
+        "explanation": "La fusión es el cambio de estado de sólido a líquido."
+      },
+      {
+        "id": "ej-q2",
+        "question": "Una mezcla cuyos componentes se distinguen a simple vista es:",
+        "options": ["Homogénea", "Heterogénea", "Un compuesto", "Un elemento"],
+        "answerIndex": 1
+      }
+    ],
+    "flashcards": [
+      { "id": "ej-f1", "front": "Sublimación", "back": "Paso directo de sólido a gas, sin pasar por líquido." },
+      { "id": "ej-f2", "front": "Mezcla homogénea", "back": "Mezcla cuyos componentes no se distinguen a simple vista." }
+    ]
+  }
+]

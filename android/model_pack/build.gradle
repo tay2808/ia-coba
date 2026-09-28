@@ -1,0 +1,11 @@
+// Model Pack: el modelo GGUF se distribuye separado de la app base (Play Asset Delivery).
+// Coloca el archivo con: ./tools/package_model_pack.sh ruta/al/modelo.gguf
+apply plugin: 'com.android.asset-pack'
+
+assetPack {
+    packName = "model_pack"
+    dynamicDelivery {
+        // fast-follow: Google Play lo descarga justo después de instalar la app.
+        deliveryType = "fast-follow"
+    }
+}
