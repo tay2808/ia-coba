@@ -31,6 +31,7 @@ jobs:
         with:
           distribution: temurin
           java-version: 17
+          cache: gradle
 
       - uses: actions/setup-python@v5
         with:
@@ -55,7 +56,8 @@ jobs:
 
       - name: Compilar APK
         working-directory: android
-        run: ./gradlew assembleRelease -PsplitApks=true --no-daemon
+        # Solo arm64-v8a (casi todos los celulares actuales): reduce a la mitad la compilación nativa.
+        run: ./gradlew assembleRelease -PsplitApks=true -PreactNativeArchitectures=arm64-v8a --no-daemon --continue
 
       - name: Guardar APK como artefacto
         uses: actions/upload-artifact@v4
@@ -70,8 +72,8 @@ jobs:
           name: COBAEV IA (compilación ${{ github.run_number }})
           prerelease: true
           body: |
-            Descarga desde el celular **app-arm64-v8a-release.apk** (casi todos los teléfonos Android)
-            o **app-universal-release.apk** si la primera no instala.
+            Descarga desde el celular **app-arm64-v8a-release.apk** (teléfonos Android de 64 bits,
+            prácticamente todos los de los últimos años).
 
             1. Abre el archivo y acepta "Permitir instalar apps de fuentes desconocidas".
             2. Copia al teléfono un modelo `.gguf` (p. ej. Llama-3.2-1B-Instruct-Q4_K_M.gguf) e impórtalo en
