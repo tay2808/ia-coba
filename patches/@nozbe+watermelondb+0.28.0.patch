@@ -1,0 +1,13 @@
+diff --git a/node_modules/@nozbe/watermelondb/native/android/build.gradle b/node_modules/@nozbe/watermelondb/native/android/build.gradle
+index a45cfe0..d337380 100644
+--- a/node_modules/@nozbe/watermelondb/native/android/build.gradle
++++ b/node_modules/@nozbe/watermelondb/native/android/build.gradle
+@@ -25,6 +25,8 @@ android {
+     buildToolsVersion getExtOrDefault('buildToolsVersion')
+ 
+     namespace "com.nozbe.watermelondb"
++    // BuildConfig ya no se genera por defecto (AGP 8+) y el código usa BuildConfig.DEBUG.
++    buildFeatures { buildConfig true }
+ 
+     defaultConfig {
+         minSdkVersion getExtOrIntegerDefault('minSdkVersion')
