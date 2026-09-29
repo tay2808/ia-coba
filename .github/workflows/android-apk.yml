@@ -1,0 +1,81 @@
+# Compila el APK de COBAEV IA y lo publica en la sección "Releases" del
+# repositorio para descargarlo e instalarlo directamente desde el celular.
+name: APK Android
+
+on:
+  push:
+    branches: [claude/new-session-ceok8r]
+    paths-ignore: ['**.md', 'docs/**', 'tools/sources/**']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: apk-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  apk:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Dependencias de JavaScript
+        run: npm ci
+
+      - name: Pruebas rápidas
+        run: |
+          npm test
+          npx tsc --noEmit
+          npm run check:offline
+
+      # Modelo de embeddings para el RAG. Si falla, la app funciona igual
+      # pero sin búsqueda semántica en documentos.
+      - name: Modelo de embeddings (all-MiniLM-L6-v2 → ONNX)
+        continue-on-error: true
+        run: |
+          pip install "optimum[onnxruntime]>=1.21" "transformers>=4.44"
+          python tools/export_embedding_model.py
+
+      - name: Compilar APK
+        working-directory: android
+        run: ./gradlew assembleRelease -PsplitApks=true --no-daemon
+
+      - name: Guardar APK como artefacto
+        uses: actions/upload-artifact@v4
+        with:
+          name: cobaev-ia-apk
+          path: android/app/build/outputs/apk/release/*.apk
+
+      - name: Publicar en Releases
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: apk-${{ github.run_number }}
+          name: COBAEV IA (compilación ${{ github.run_number }})
+          prerelease: true
+          body: |
+            Descarga desde el celular **app-arm64-v8a-release.apk** (casi todos los teléfonos Android)
+            o **app-universal-release.apk** si la primera no instala.
+
+            1. Abre el archivo y acepta "Permitir instalar apps de fuentes desconocidas".
+            2. Copia al teléfono un modelo `.gguf` (p. ej. Llama-3.2-1B-Instruct-Q4_K_M.gguf) e impórtalo en
+               Herramientas → Gestor de modelos.
+
+            APK de prueba firmada con la llave de desarrollo.
+          files: android/app/build/outputs/apk/release/*.apk
