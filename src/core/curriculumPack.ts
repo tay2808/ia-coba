@@ -122,8 +122,27 @@ export function validateManifest(raw: unknown): PackManifest {
   return m as PackManifest;
 }
 
-export function validateSubjects(raw: unknown): Subject[] {
+/**
+ * Semestres que se cursan en un ciclo escolar: en los ciclos "B" (agosto–enero)
+ * solo se imparten semestres impares y en los "A" (febrero–julio), pares.
+ * Devuelve null si la versión no tiene el formato AAAA-A/B.
+ */
+export function semestersForCurriculumVersion(version: string): number[] | null {
+  const m = /^\d{4}-([AB])$/i.exec(version.trim());
+  if (!m) {
+    return null;
+  }
+  return m[1].toUpperCase() === 'B' ? [1, 3, 5] : [2, 4, 6];
+}
+
+export interface ValidateSubjectsOptions {
+  /** Si se indica, cada materia debe pertenecer a un semestre que se curse en ese ciclo. */
+  curriculumVersion?: string;
+}
+
+export function validateSubjects(raw: unknown, options: ValidateSubjectsOptions = {}): Subject[] {
   const p: string[] = [];
+  const allowed = options.curriculumVersion ? semestersForCurriculumVersion(options.curriculumVersion) : null;
   if (!Array.isArray(raw)) {
     throw new PackValidationError(['subjects.json debe ser un arreglo']);
   }
@@ -142,6 +161,8 @@ export function validateSubjects(raw: unknown): Subject[] {
     }
     if (typeof s?.semester !== 'number' || s.semester < 1 || s.semester > 6) {
       p.push(`${where}: semester debe ser 1-6`);
+    } else if (allowed && !allowed.includes(s.semester)) {
+      p.push(`${where}: el semestre ${s.semester} no se cursa en el ciclo ${options.curriculumVersion} (${allowed.join(', ')})`);
     }
     if (!Array.isArray(s?.units)) {
       p.push(`${where}: units debe ser un arreglo`);

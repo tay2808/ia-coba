@@ -2,6 +2,7 @@ import {
   PackValidationError,
   compareCurriculumVersions,
   parseChunksJsonl,
+  semestersForCurriculumVersion,
   validateManifest,
   validateSubjects,
 } from '../../src/core/curriculumPack';
@@ -45,10 +46,26 @@ describe('paquetes curriculares', () => {
     ).toThrow(/answerIndex fuera de rango[\s\S]*id duplicado[\s\S]*semester/);
   });
 
-  it('el currículo base incluido es válido', () => {
-    const subjects = validateSubjects(base);
+  it('el currículo base incluido es válido y solo trae los semestres del ciclo 2026-B', () => {
+    const subjects = validateSubjects(base, { curriculumVersion: '2026-B' });
     expect(subjects.length).toBeGreaterThan(10);
-    expect(new Set(subjects.map(s => s.semester))).toEqual(new Set([1, 2, 3, 4, 5, 6]));
+    expect(new Set(subjects.map(s => s.semester))).toEqual(new Set([1, 3, 5]));
+    const ids = subjects.flatMap(s => [
+      ...s.units.flatMap(u => [u.id, ...u.topics.map(t => t.id)]),
+      ...(s.quizzes ?? []).map(q => q.id),
+      ...(s.flashcards ?? []).map(f => f.id),
+    ]);
+    expect(new Set(ids).size).toBe(ids.length);
+  });
+
+  it('limita los semestres según el ciclo escolar', () => {
+    expect(semestersForCurriculumVersion('2026-B')).toEqual([1, 3, 5]);
+    expect(semestersForCurriculumVersion('2027-a')).toEqual([2, 4, 6]);
+    expect(semestersForCurriculumVersion('plantilla')).toBeNull();
+    const subjects = [{ id: 'x', name: 'X', semester: 2, area: 'a', units: [] }];
+    expect(() => validateSubjects(subjects, { curriculumVersion: '2026-B' })).toThrow(/no se cursa en el ciclo 2026-B/);
+    expect(validateSubjects(subjects, { curriculumVersion: '2027-A' })).toHaveLength(1);
+    expect(validateSubjects(subjects)).toHaveLength(1);
   });
 
   it('parsea chunks JSONL', () => {

@@ -1,0 +1,7 @@
+{
+  "id": "cobaev-2026b-s1",
+  "name": "COBAEV 2026-B · 1.º semestre – Campus Virtual (textos oficiales)",
+  "curriculumVersion": "2026-B",
+  "description": "Presentaciones generales de curso publicadas por COBAEV en el Campus Virtual 2026-B. Solo documentos para el RAG; las materias vienen del currículo base. Fuentes: docs/FUENTES_CURRICULO_2026B.md.",
+  "linkedSubjects": "../../../../assets/curriculum/cobaev-2026b-base.json"
+}

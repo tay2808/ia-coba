@@ -15,7 +15,7 @@ Asistente educativo para estudiantes del **Colegio de Bachilleres del Estado de 
 | Visión / OCR | Foto de tarea → recorte inteligente alrededor del texto → contexto para el LLM | Google ML Kit Text Recognition v2 (modelo empaquetado) |
 | Humanizador | Perfiles de tono: Estudiante COBAEV (16 años), Profesional, Casual, Académico, Amable, Conciso, con reglas anti-"texto robótico" | Prompts del sistema |
 | Herramientas de estudio | Quizzes (banco + generados por IA), flashcards con repetición espaciada SM-2, explicador paso a paso, detector de tono, corrección de redacción | TS puro + LLM local |
-| Currículo | Currículo base 2026-B incluido + importador de paquetes `.pack` con embeddings precalculados | JSON/ZIP |
+| Currículo | Currículo base 2026-B (1.º, 3.º y 5.º semestre) incluido + importador de paquetes `.pack` con embeddings precalculados | JSON/ZIP |
 | Privacidad | Sin permiso `INTERNET` en producción, sin telemetría, sin respaldo en la nube, temporales borrados tras el análisis, respaldo local `.zip` | Manifest + `BackupService` |
 | Rendimiento | Ajuste de contexto/hilos según RAM libre y estado térmico, pausas de enfriamiento | `performance.ts` |
 
@@ -44,7 +44,7 @@ android/
   app/.../DeviceStatsModule.kt   RAM disponible, estado térmico, temperatura de batería
   app/.../ModelPackModule.kt     Localiza el modelo entregado por Play Asset Delivery
   model_pack/                    Asset pack con el GGUF (separado de la app base en el AAB)
-assets/curriculum/           Currículo base COBAEV 2026-B (plantilla editable)
+assets/curriculum/           Currículo base COBAEV 2026-B (1.º, 3.º y 5.º semestre)
 tools/                       Scripts de PC: exportar embeddings, construir paquetes, empaquetar modelo, auditoría offline
 docs/                        Arquitectura, formato de paquetes, compilación, pruebas en modo avión
 ```
@@ -89,7 +89,7 @@ python tools/build_curriculum_pack.py tools/examples/pack-ejemplo -o ejemplo.pac
 
 Copia el `.pack` al teléfono y usa **Materias → Importar paquete curricular**. Formato en [`docs/FORMATO_PAQUETES.md`](docs/FORMATO_PAQUETES.md).
 
-> ⚠️ El currículo base incluido (`assets/curriculum/cobaev-2026b-base.json`) es una **plantilla** organizada por las áreas del MCCEMS con contenido de ejemplo. Debe revisarse y sustituirse por los programas oficiales de COBAEV mediante un paquete curricular.
+El currículo base incluido (`assets/curriculum/cobaev-2026b-base.json`) contiene solo las UAC que se cursan en el semestre **2026-B**: 1.º (generación 2026-2029), 3.º (2025-2028) y 5.º (2024-2027). Los nombres vienen del Campus Virtual COBAEV 2026-B. Las unidades y temas vienen de los resúmenes oficiales de cada curso, y las horas de 5.º semestre, de la estructura curricular DGB publicada por COBAEV. Las UAC sin contenido público solo traen su nombre. Las fuentes, los documentos descartados y lo pendiente están en [`docs/FUENTES_CURRICULO_2026B.md`](docs/FUENTES_CURRICULO_2026B.md). Los textos fuente de los paquetes RAG por semestre están en `tools/sources/2026b/`.
 
 ## Limitaciones conocidas
 

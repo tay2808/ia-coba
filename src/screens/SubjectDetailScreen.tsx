@@ -56,6 +56,14 @@ export default function SubjectDetailScreen({ route, navigation }: Props) {
         <Button style={styles.flex} variant="ghost" label={`📄 Documentos (${data.docs})`} onPress={() => navigation.navigate('Documents', { subjectCode })} />
       </Row>
       <Button variant="ghost" label="🧮 Explicador paso a paso" onPress={() => navigation.navigate('Explainer', { subjectCode })} />
+      {s.units.length === 0 && (
+        <Card>
+          <Body muted>
+            Aún no hay unidades oficiales para esta materia. Puedes preguntar en el chat o importar su paquete curricular
+            desde Materias.
+          </Body>
+        </Card>
+      )}
       {s.units.map(unit => (
         <Card key={unit.id}>
           <Title>{unit.title}</Title>

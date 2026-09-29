@@ -1,859 +1,117 @@
 [
  {
   "id": "lyc-1",
-  "name": "Lengua y Comunicación I",
+  "name": "Lengua y Comunicación I. Leer y escribir para pensarnos juntos",
   "semester": 1,
-  "area": "Lengua y Comunicación",
-  "description": "Comprensión lectora y producción de textos.",
-  "units": [
-   {
-    "id": "lyc-1-u1",
-    "title": "Lectura y comprensión",
-    "topics": [
-     {
-      "id": "lyc-1-u1-t1",
-      "title": "Tipos de texto"
-     },
-     {
-      "id": "lyc-1-u1-t2",
-      "title": "Idea principal e ideas secundarias"
-     },
-     {
-      "id": "lyc-1-u1-t3",
-      "title": "Inferencias"
-     }
-    ]
-   },
-   {
-    "id": "lyc-1-u2",
-    "title": "Producción de textos",
-    "topics": [
-     {
-      "id": "lyc-1-u2-t1",
-      "title": "Planeación del texto"
-     },
-     {
-      "id": "lyc-1-u2-t2",
-      "title": "Coherencia y cohesión"
-     },
-     {
-      "id": "lyc-1-u2-t3",
-      "title": "Revisión y corrección"
-     }
-    ]
-   }
-  ],
-  "quizzes": [
-   {
-    "id": "lyc-1-q1",
-    "question": "¿Qué elemento expresa la idea más importante de un párrafo?",
-    "options": [
-     "La idea principal",
-     "Un ejemplo",
-     "Un conector",
-     "El título del libro"
-    ],
-    "answerIndex": 0,
-    "explanation": "La idea principal resume lo esencial del párrafo."
-   },
-   {
-    "id": "lyc-1-q2",
-    "question": "¿Cuál es un conector de causa?",
-    "options": [
-     "Sin embargo",
-     "Porque",
-     "Finalmente",
-     "Además"
-    ],
-    "answerIndex": 1,
-    "explanation": "«Porque» introduce la causa de algo."
-   }
-  ],
-  "flashcards": [
-   {
-    "id": "lyc-1-f1",
-    "front": "Coherencia",
-    "back": "Relación lógica entre las ideas de un texto."
-   },
-   {
-    "id": "lyc-1-f2",
-    "front": "Cohesión",
-    "back": "Uso de conectores y referencias que enlazan las partes del texto."
-   }
-  ]
+  "area": "Lengua y comunicación",
+  "description": "UAC de 1.er semestre publicada en el Campus Virtual COBAEV 2026-B. El resumen público del curso no detalla progresiones; importa el paquete oficial de la materia cuando esté disponible.",
+  "units": []
  },
  {
   "id": "ing-1",
-  "name": "Inglés I",
+  "name": "Inglés I. To be or not to be, that is the question",
   "semester": 1,
-  "area": "Inglés",
-  "description": "Comunicación básica en inglés.",
-  "units": [
-   {
-    "id": "ing-1-u1",
-    "title": "Presentaciones personales",
-    "topics": [
-     {
-      "id": "ing-1-u1-t1",
-      "title": "Verb to be"
-     },
-     {
-      "id": "ing-1-u1-t2",
-      "title": "Pronombres personales"
-     },
-     {
-      "id": "ing-1-u1-t3",
-      "title": "Saludos"
-     }
-    ]
-   },
-   {
-    "id": "ing-1-u2",
-    "title": "Rutinas",
-    "topics": [
-     {
-      "id": "ing-1-u2-t1",
-      "title": "Presente simple"
-     },
-     {
-      "id": "ing-1-u2-t2",
-      "title": "Adverbios de frecuencia"
-     }
-    ]
-   }
-  ],
-  "quizzes": [
-   {
-    "id": "ing-1-q1",
-    "question": "Choose the correct form: She ___ a student.",
-    "options": [
-     "am",
-     "is",
-     "are",
-     "be"
-    ],
-    "answerIndex": 1,
-    "explanation": "Con he/she/it se usa «is»."
-   },
-   {
-    "id": "ing-1-q2",
-    "question": "¿Cuál es el presente simple de «to go» con «he»?",
-    "options": [
-     "go",
-     "goes",
-     "going",
-     "went"
-    ],
-    "answerIndex": 1,
-    "explanation": "En tercera persona singular se agrega -es."
-   }
-  ],
-  "flashcards": [
-   {
-    "id": "ing-1-f1",
-    "front": "I am / You are / He is",
-    "back": "Conjugación del verbo to be en presente."
-   },
-   {
-    "id": "ing-1-f2",
-    "front": "Always, usually, sometimes, never",
-    "back": "Adverbios de frecuencia."
-   }
-  ]
+  "area": "Lengua y comunicación",
+  "description": "UAC de 1.er semestre publicada en el Campus Virtual COBAEV 2026-B. El resumen público del curso no detalla progresiones; importa el paquete oficial de la materia cuando esté disponible.",
+  "units": []
  },
  {
   "id": "pm-1",
-  "name": "Pensamiento Matemático I",
+  "name": "Pensamiento Matemático I. Pensamiento Aritmético",
   "semester": 1,
-  "area": "Pensamiento Matemático",
-  "description": "Pensamiento aritmético, estadístico y probabilístico.",
-  "units": [
-   {
-    "id": "pm-1-u1",
-    "title": "Aritmética",
-    "topics": [
-     {
-      "id": "pm-1-u1-t1",
-      "title": "Números reales"
-     },
-     {
-      "id": "pm-1-u1-t2",
-      "title": "Operaciones con fracciones"
-     },
-     {
-      "id": "pm-1-u1-t3",
-      "title": "Razones y proporciones"
-     },
-     {
-      "id": "pm-1-u1-t4",
-      "title": "Porcentajes"
-     }
-    ]
-   },
-   {
-    "id": "pm-1-u2",
-    "title": "Estadística y probabilidad",
-    "topics": [
-     {
-      "id": "pm-1-u2-t1",
-      "title": "Medidas de tendencia central"
-     },
-     {
-      "id": "pm-1-u2-t2",
-      "title": "Representación de datos"
-     },
-     {
-      "id": "pm-1-u2-t3",
-      "title": "Probabilidad clásica"
-     }
-    ]
-   }
-  ],
-  "quizzes": [
-   {
-    "id": "pm-1-q1",
-    "question": "¿Cuánto es el 20% de 150?",
-    "options": [
-     "20",
-     "30",
-     "15",
-     "45"
-    ],
-    "answerIndex": 1,
-    "explanation": "150 × 0.20 = 30."
-   },
-   {
-    "id": "pm-1-q2",
-    "question": "La media de 4, 6 y 8 es:",
-    "options": [
-     "5",
-     "6",
-     "7",
-     "18"
-    ],
-    "answerIndex": 1,
-    "explanation": "(4+6+8)/3 = 6."
-   },
-   {
-    "id": "pm-1-q3",
-    "question": "Al lanzar un dado, ¿cuál es la probabilidad de obtener un número par?",
-    "options": [
-     "1/6",
-     "1/3",
-     "1/2",
-     "2/3"
-    ],
-    "answerIndex": 2,
-    "explanation": "Hay 3 pares de 6 resultados: 3/6 = 1/2."
-   }
-  ],
-  "flashcards": [
-   {
-    "id": "pm-1-f1",
-    "front": "Media",
-    "back": "Suma de los datos dividida entre el número de datos."
-   },
-   {
-    "id": "pm-1-f2",
-    "front": "Moda",
-    "back": "Dato que más se repite."
-   },
-   {
-    "id": "pm-1-f3",
-    "front": "Mediana",
-    "back": "Valor central de los datos ordenados."
-   }
-  ]
+  "area": "Pensamiento matemático",
+  "description": "UAC de 1.er semestre publicada en el Campus Virtual COBAEV 2026-B. El resumen público del curso no detalla progresiones; importa el paquete oficial de la materia cuando esté disponible.",
+  "units": []
  },
  {
   "id": "cd-1",
-  "name": "Cultura Digital I",
+  "name": "Cultura Digital I. Ciudadanía Digital",
   "semester": 1,
-  "area": "Cultura Digital",
-  "description": "Ciudadanía digital y herramientas de productividad.",
-  "units": [
-   {
-    "id": "cd-1-u1",
-    "title": "Ciudadanía digital",
-    "topics": [
-     {
-      "id": "cd-1-u1-t1",
-      "title": "Identidad digital"
-     },
-     {
-      "id": "cd-1-u1-t2",
-      "title": "Seguridad y privacidad"
-     },
-     {
-      "id": "cd-1-u1-t3",
-      "title": "Uso responsable"
-     }
-    ]
-   },
-   {
-    "id": "cd-1-u2",
-    "title": "Herramientas digitales",
-    "topics": [
-     {
-      "id": "cd-1-u2-t1",
-      "title": "Procesador de textos"
-     },
-     {
-      "id": "cd-1-u2-t2",
-      "title": "Hoja de cálculo"
-     },
-     {
-      "id": "cd-1-u2-t3",
-      "title": "Presentaciones"
-     }
-    ]
-   }
-  ],
-  "quizzes": [
-   {
-    "id": "cd-1-q1",
-    "question": "¿Qué es una contraseña segura?",
-    "options": [
-     "Tu fecha de nacimiento",
-     "Una combinación larga de letras, números y símbolos",
-     "«123456»",
-     "Tu nombre"
-    ],
-    "answerIndex": 1,
-    "explanation": "Las contraseñas largas y variadas son más difíciles de adivinar."
-   }
-  ],
-  "flashcards": [
-   {
-    "id": "cd-1-f1",
-    "front": "Huella digital",
-    "back": "Rastro de información que dejamos al usar internet."
-   }
-  ]
+  "area": "Cultura digital",
+  "description": "UAC de 1.er semestre publicada en el Campus Virtual COBAEV 2026-B. El resumen público del curso no detalla progresiones; importa el paquete oficial de la materia cuando esté disponible.",
+  "units": []
  },
  {
   "id": "cn-1",
-  "name": "La materia y sus interacciones",
+  "name": "Ciencias Naturales, Experimentales y Tecnología I. Invitación a la Ciencia. Naturaleza de la materia",
   "semester": 1,
-  "area": "Ciencias Naturales, Experimentales y Tecnología",
-  "description": "Propiedades de la materia, átomos y enlaces.",
-  "units": [
-   {
-    "id": "cn-1-u1",
-    "title": "La materia",
-    "topics": [
-     {
-      "id": "cn-1-u1-t1",
-      "title": "Propiedades de la materia"
-     },
-     {
-      "id": "cn-1-u1-t2",
-      "title": "Estados de agregación"
-     },
-     {
-      "id": "cn-1-u1-t3",
-      "title": "Mezclas y sustancias puras"
-     }
-    ]
-   },
-   {
-    "id": "cn-1-u2",
-    "title": "Estructura atómica",
-    "topics": [
-     {
-      "id": "cn-1-u2-t1",
-      "title": "Modelos atómicos"
-     },
-     {
-      "id": "cn-1-u2-t2",
-      "title": "Tabla periódica"
-     },
-     {
-      "id": "cn-1-u2-t3",
-      "title": "Enlaces químicos"
-     }
-    ]
-   }
-  ],
-  "quizzes": [
-   {
-    "id": "cn-1-q1",
-    "question": "¿Qué partícula tiene carga negativa?",
-    "options": [
-     "Protón",
-     "Neutrón",
-     "Electrón",
-     "Núcleo"
-    ],
-    "answerIndex": 2,
-    "explanation": "El electrón tiene carga negativa."
-   },
-   {
-    "id": "cn-1-q2",
-    "question": "El agua (H₂O) es un ejemplo de:",
-    "options": [
-     "Elemento",
-     "Compuesto",
-     "Mezcla heterogénea",
-     "Aleación"
-    ],
-    "answerIndex": 1,
-    "explanation": "Está formada por dos elementos químicamente unidos."
-   }
-  ],
-  "flashcards": [
-   {
-    "id": "cn-1-f1",
-    "front": "Átomo",
-    "back": "Unidad más pequeña de un elemento que conserva sus propiedades."
-   },
-   {
-    "id": "cn-1-f2",
-    "front": "Número atómico",
-    "back": "Cantidad de protones en el núcleo de un átomo."
-   }
-  ]
+  "area": "Ciencias naturales, experimentales y tecnología",
+  "description": "UAC de 1.er semestre publicada en el Campus Virtual COBAEV 2026-B. El resumen público del curso no detalla progresiones; importa el paquete oficial de la materia cuando esté disponible.",
+  "units": []
  },
  {
   "id": "hum-1",
-  "name": "Humanidades I",
+  "name": "Pensamiento Filosófico y Humanidades I. El ejercicio de filosofar y la perspectiva humanista",
   "semester": 1,
   "area": "Humanidades",
-  "description": "Reflexión filosófica sobre la persona y la comunidad.",
-  "units": [
-   {
-    "id": "hum-1-u1",
-    "title": "El ser humano",
-    "topics": [
-     {
-      "id": "hum-1-u1-t1",
-      "title": "¿Qué es la filosofía?"
-     },
-     {
-      "id": "hum-1-u1-t2",
-      "title": "Identidad y persona"
-     },
-     {
-      "id": "hum-1-u1-t3",
-      "title": "Libertad y responsabilidad"
-     }
-    ]
-   }
-  ],
-  "quizzes": [],
-  "flashcards": [
-   {
-    "id": "hum-1-f1",
-    "front": "Ética",
-    "back": "Rama de la filosofía que reflexiona sobre la conducta y los valores."
-   }
-  ]
+  "description": "UAC de 1.er semestre publicada en el Campus Virtual COBAEV 2026-B. El resumen público del curso no detalla progresiones; importa el paquete oficial de la materia cuando esté disponible.",
+  "units": []
  },
  {
   "id": "cs-1",
-  "name": "Ciencias Sociales I",
+  "name": "Ciencias Sociales I. Estado, Ciudadanía y relaciones de poder",
   "semester": 1,
-  "area": "Ciencias Sociales",
-  "description": "Análisis de la realidad social.",
-  "units": [
-   {
-    "id": "cs-1-u1",
-    "title": "Sociedad y cultura",
-    "topics": [
-     {
-      "id": "cs-1-u1-t1",
-      "title": "Conceptos básicos de las ciencias sociales"
-     },
-     {
-      "id": "cs-1-u1-t2",
-      "title": "Grupos sociales"
-     },
-     {
-      "id": "cs-1-u1-t3",
-      "title": "Diversidad cultural"
-     }
-    ]
-   }
-  ],
-  "quizzes": [],
-  "flashcards": [
-   {
-    "id": "cs-1-f1",
-    "front": "Sociedad",
-    "back": "Conjunto de personas que comparten normas, cultura e instituciones."
-   }
-  ]
+  "area": "Ciencias sociales",
+  "description": "UAC de 1.er semestre publicada en el Campus Virtual COBAEV 2026-B. El resumen público del curso no detalla progresiones; importa el paquete oficial de la materia cuando esté disponible.",
+  "units": []
  },
  {
-  "id": "lyc-2",
-  "name": "Lengua y Comunicación II",
-  "semester": 2,
-  "area": "Lengua y Comunicación",
-  "description": "Argumentación y textos académicos.",
+  "id": "lab-inv",
+  "name": "Laboratorio de Investigación",
+  "semester": 1,
+  "area": "Ciencias sociales",
+  "description": "Brinda los saberes y habilidades para reconocer los elementos fundamentales de la metodología de la investigación en Ciencias Sociales y desarrollar proyectos de investigación ante problemáticas de tu comunidad. Fuente: Campus Virtual COBAEV 2026-B.",
   "units": [
    {
-    "id": "lyc-2-u1",
-    "title": "Argumentación",
+    "id": "lab-inv-u1",
+    "title": "Ejes de las problemáticas centrales de las Ciencias Sociales",
     "topics": [
      {
-      "id": "lyc-2-u1-t1",
-      "title": "Tesis y argumentos"
+      "id": "lab-inv-u1-t1",
+      "title": "El Estado, la perspectiva de derechos y la construcción de ciudadanía"
      },
      {
-      "id": "lyc-2-u1-t2",
-      "title": "Falacias"
+      "id": "lab-inv-u1-t2",
+      "title": "El cuestionamiento y replanteamiento de la organización social y económica, así como de las relaciones de poder"
      },
      {
-      "id": "lyc-2-u1-t3",
-      "title": "Ensayo"
+      "id": "lab-inv-u1-t3",
+      "title": "Las dinámicas sociales y el papel de las juventudes"
      }
     ]
    },
    {
-    "id": "lyc-2-u2",
-    "title": "Investigación documental",
+    "id": "lab-inv-u2",
+    "title": "Proceso de investigación en Ciencias Sociales",
     "topics": [
      {
-      "id": "lyc-2-u2-t1",
-      "title": "Búsqueda de fuentes"
+      "id": "lab-inv-u2-t1",
+      "title": "Elementos fundamentales de la metodología de la investigación en Ciencias Sociales"
      },
      {
-      "id": "lyc-2-u2-t2",
-      "title": "Citas y referencias"
+      "id": "lab-inv-u2-t2",
+      "title": "Desarrollo de las fases de la investigación"
+     },
+     {
+      "id": "lab-inv-u2-t3",
+      "title": "Recopilación, interpretación, discusión y análisis de datos"
+     },
+     {
+      "id": "lab-inv-u2-t4",
+      "title": "Presentación y difusión de resultados"
+     },
+     {
+      "id": "lab-inv-u2-t5",
+      "title": "Proyectos de investigación científica ante problemáticas del contexto"
      }
     ]
-   }
-  ],
-  "quizzes": [
-   {
-    "id": "lyc-2-q1",
-    "question": "En un texto argumentativo, la tesis es:",
-    "options": [
-     "Un ejemplo",
-     "La postura que se defiende",
-     "La bibliografía",
-     "Un resumen"
-    ],
-    "answerIndex": 1,
-    "explanation": "La tesis es la idea que el autor defiende."
    }
   ],
   "flashcards": [
    {
-    "id": "lyc-2-f1",
-    "front": "Falacia",
-    "back": "Argumento que parece válido pero no lo es."
-   }
-  ]
- },
- {
-  "id": "ing-2",
-  "name": "Inglés II",
-  "semester": 2,
-  "area": "Inglés",
-  "description": "Pasado y descripción de experiencias.",
-  "units": [
-   {
-    "id": "ing-2-u1",
-    "title": "Past events",
-    "topics": [
-     {
-      "id": "ing-2-u1-t1",
-      "title": "Past simple"
-     },
-     {
-      "id": "ing-2-u1-t2",
-      "title": "Regular and irregular verbs"
-     }
-    ]
-   },
-   {
-    "id": "ing-2-u2",
-    "title": "Descriptions",
-    "topics": [
-     {
-      "id": "ing-2-u2-t1",
-      "title": "Adjectives"
-     },
-     {
-      "id": "ing-2-u2-t2",
-      "title": "Comparatives"
-     }
-    ]
-   }
-  ],
-  "quizzes": [
-   {
-    "id": "ing-2-q1",
-    "question": "Past simple of «eat»:",
-    "options": [
-     "eated",
-     "ate",
-     "eaten",
-     "eats"
-    ],
-    "answerIndex": 1,
-    "explanation": "«Eat» es irregular: ate."
-   }
-  ],
-  "flashcards": []
- },
- {
-  "id": "pm-2",
-  "name": "Pensamiento Matemático II",
-  "semester": 2,
-  "area": "Pensamiento Matemático",
-  "description": "Pensamiento algebraico.",
-  "units": [
-   {
-    "id": "pm-2-u1",
-    "title": "Álgebra",
-    "topics": [
-     {
-      "id": "pm-2-u1-t1",
-      "title": "Expresiones algebraicas"
-     },
-     {
-      "id": "pm-2-u1-t2",
-      "title": "Productos notables"
-     },
-     {
-      "id": "pm-2-u1-t3",
-      "title": "Factorización"
-     }
-    ]
-   },
-   {
-    "id": "pm-2-u2",
-    "title": "Ecuaciones",
-    "topics": [
-     {
-      "id": "pm-2-u2-t1",
-      "title": "Ecuaciones lineales"
-     },
-     {
-      "id": "pm-2-u2-t2",
-      "title": "Sistemas de ecuaciones 2x2"
-     },
-     {
-      "id": "pm-2-u2-t3",
-      "title": "Ecuaciones cuadráticas"
-     }
-    ]
-   }
-  ],
-  "quizzes": [
-   {
-    "id": "pm-2-q1",
-    "question": "Resuelve: 2x + 3 = 11",
-    "options": [
-     "x = 3",
-     "x = 4",
-     "x = 7",
-     "x = 5"
-    ],
-    "answerIndex": 1,
-    "explanation": "2x = 8, entonces x = 4."
-   },
-   {
-    "id": "pm-2-q2",
-    "question": "(a + b)² es igual a:",
-    "options": [
-     "a² + b²",
-     "a² + 2ab + b²",
-     "2a + 2b",
-     "a² − b²"
-    ],
-    "answerIndex": 1,
-    "explanation": "Binomio al cuadrado."
-   }
-  ],
-  "flashcards": [
-   {
-    "id": "pm-2-f1",
-    "front": "Binomio al cuadrado",
-    "back": "(a + b)² = a² + 2ab + b²"
-   },
-   {
-    "id": "pm-2-f2",
-    "front": "Fórmula general",
-    "back": "x = (−b ± √(b² − 4ac)) / 2a"
-   }
-  ]
- },
- {
-  "id": "cd-2",
-  "name": "Cultura Digital II",
-  "semester": 2,
-  "area": "Cultura Digital",
-  "description": "Pensamiento computacional.",
-  "units": [
-   {
-    "id": "cd-2-u1",
-    "title": "Pensamiento computacional",
-    "topics": [
-     {
-      "id": "cd-2-u1-t1",
-      "title": "Algoritmos"
-     },
-     {
-      "id": "cd-2-u1-t2",
-      "title": "Diagramas de flujo"
-     },
-     {
-      "id": "cd-2-u1-t3",
-      "title": "Introducción a la programación"
-     }
-    ]
-   }
-  ],
-  "quizzes": [
-   {
-    "id": "cd-2-q1",
-    "question": "Un algoritmo es:",
-    "options": [
-     "Un virus",
-     "Una secuencia ordenada de pasos para resolver un problema",
-     "Un tipo de computadora",
-     "Una red social"
-    ],
-    "answerIndex": 1,
-    "explanation": ""
-   }
-  ],
-  "flashcards": []
- },
- {
-  "id": "cn-2",
-  "name": "Conservación de la energía y sus interacciones con la materia",
-  "semester": 2,
-  "area": "Ciencias Naturales, Experimentales y Tecnología",
-  "description": "Energía, trabajo y cambios físicos.",
-  "units": [
-   {
-    "id": "cn-2-u1",
-    "title": "Energía",
-    "topics": [
-     {
-      "id": "cn-2-u1-t1",
-      "title": "Tipos de energía"
-     },
-     {
-      "id": "cn-2-u1-t2",
-      "title": "Conservación de la energía"
-     },
-     {
-      "id": "cn-2-u1-t3",
-      "title": "Trabajo y potencia"
-     }
-    ]
-   },
-   {
-    "id": "cn-2-u2",
-    "title": "Calor y temperatura",
-    "topics": [
-     {
-      "id": "cn-2-u2-t1",
-      "title": "Transferencia de calor"
-     },
-     {
-      "id": "cn-2-u2-t2",
-      "title": "Escalas de temperatura"
-     }
-    ]
-   }
-  ],
-  "quizzes": [
-   {
-    "id": "cn-2-q1",
-    "question": "La unidad de energía en el SI es:",
-    "options": [
-     "Newton",
-     "Watt",
-     "Joule",
-     "Pascal"
-    ],
-    "answerIndex": 2,
-    "explanation": "La energía se mide en joules (J)."
-   }
-  ],
-  "flashcards": [
-   {
-    "id": "cn-2-f1",
-    "front": "Energía cinética",
-    "back": "Ec = ½ m v²"
-   },
-   {
-    "id": "cn-2-f2",
-    "front": "Ley de conservación de la energía",
-    "back": "La energía no se crea ni se destruye, solo se transforma."
-   }
-  ]
- },
- {
-  "id": "pm-3",
-  "name": "Pensamiento Matemático III",
-  "semester": 3,
-  "area": "Pensamiento Matemático",
-  "description": "Geometría y trigonometría.",
-  "units": [
-   {
-    "id": "pm-3-u1",
-    "title": "Geometría",
-    "topics": [
-     {
-      "id": "pm-3-u1-t1",
-      "title": "Ángulos y triángulos"
-     },
-     {
-      "id": "pm-3-u1-t2",
-      "title": "Teorema de Pitágoras"
-     },
-     {
-      "id": "pm-3-u1-t3",
-      "title": "Áreas y volúmenes"
-     }
-    ]
-   },
-   {
-    "id": "pm-3-u2",
-    "title": "Trigonometría",
-    "topics": [
-     {
-      "id": "pm-3-u2-t1",
-      "title": "Razones trigonométricas"
-     },
-     {
-      "id": "pm-3-u2-t2",
-      "title": "Ley de senos y cosenos"
-     }
-    ]
-   }
-  ],
-  "quizzes": [
-   {
-    "id": "pm-3-q1",
-    "question": "Catetos 3 y 4: ¿cuánto mide la hipotenusa?",
-    "options": [
-     "5",
-     "7",
-     "6",
-     "12"
-    ],
-    "answerIndex": 0,
-    "explanation": "√(9+16) = √25 = 5."
-   }
-  ],
-  "flashcards": [
-   {
-    "id": "pm-3-f1",
-    "front": "Teorema de Pitágoras",
-    "back": "c² = a² + b²"
-   },
-   {
-    "id": "pm-3-f2",
-    "front": "Seno",
-    "back": "Cateto opuesto / hipotenusa"
+    "id": "lab-inv-f1",
+    "front": "¿En qué tres ejes se articulan las problemáticas centrales de las Ciencias Sociales que complementa el Laboratorio de Investigación?",
+    "back": "1) El Estado, la perspectiva de derechos y la construcción de ciudadanía; 2) el cuestionamiento y replanteamiento de la organización social y económica, así como de las relaciones de poder; 3) las dinámicas sociales y el papel de las juventudes."
    }
   ]
  },
@@ -861,437 +119,391 @@
   "id": "lyc-3",
   "name": "Lengua y Comunicación III",
   "semester": 3,
-  "area": "Lengua y Comunicación",
-  "description": "Comunicación oral y textos especializados.",
-  "units": [
-   {
-    "id": "lyc-3-u1",
-    "title": "Comunicación oral",
-    "topics": [
-     {
-      "id": "lyc-3-u1-t1",
-      "title": "Exposición"
-     },
-     {
-      "id": "lyc-3-u1-t2",
-      "title": "Debate"
-     }
-    ]
-   },
-   {
-    "id": "lyc-3-u2",
-    "title": "Textos especializados",
-    "topics": [
-     {
-      "id": "lyc-3-u2-t1",
-      "title": "Reseña"
-     },
-     {
-      "id": "lyc-3-u2-t2",
-      "title": "Informe"
-     }
-    ]
-   }
-  ],
-  "quizzes": [],
-  "flashcards": []
+  "area": "Lengua y comunicación",
+  "description": "UAC de 3.er semestre publicada en el Campus Virtual COBAEV 2026-B. El resumen público del curso no detalla progresiones; importa el paquete oficial de la materia cuando esté disponible.",
+  "units": []
  },
  {
   "id": "ing-3",
   "name": "Inglés III",
   "semester": 3,
-  "area": "Inglés",
-  "description": "Planes y predicciones.",
+  "area": "Lengua y comunicación",
+  "description": "Propósito: que el alumnado conviva con la lengua inglesa de manera práctica y la exprese en su día a día. El curso se organiza en 14 progresiones (parciales: 1-6, 7-10, 11-14). Fuente: Campus Virtual COBAEV 2026-B.",
   "units": [
    {
     "id": "ing-3-u1",
-    "title": "Future",
+    "title": "Metas de aprendizaje",
     "topics": [
      {
       "id": "ing-3-u1-t1",
-      "title": "Will"
+      "title": "M1CL3: Comprensión oral",
+      "summary": "Comprende oralmente expresiones cotidianas de uso muy frecuente y frases sencillas destinadas a satisfacer necesidades de tipo inmediato."
      },
      {
       "id": "ing-3-u1-t2",
-      "title": "Going to"
+      "title": "M2CS3: Expresión oral",
+      "summary": "Utiliza de forma oral expresiones cotidianas y frases sencillas para satisfacer necesidades, pedir referencias o información; puede presentarse a sí mismo y a los demás."
+     },
+     {
+      "id": "ing-3-u1-t3",
+      "title": "M3CR3: Comprensión de lectura",
+      "summary": "Comprende textos escritos con expresiones de uso frecuente sobre información personal, domicilio, ubicaciones, pertenencias y características de personas o cosas."
+     },
+     {
+      "id": "ing-3-u1-t4",
+      "title": "M4CW3: Expresión escrita",
+      "summary": "Redacta textos pequeños de forma coherente, con conjugaciones adecuadas, reglas gramaticales, puntuación y signos."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "pm-3",
+  "name": "Pensamiento Matemático III",
+  "semester": 3,
+  "area": "Pensamiento matemático",
+  "description": "Desarrolla el pensamiento variacional a partir de un enfoque intuitivo y aplicado al estudio del cálculo diferencial, sin descuidar los procesos matemáticos estructurados y formales. 15 progresiones. Fuente: Campus Virtual COBAEV 2026-B.",
+  "units": [
+   {
+    "id": "pm-3-u1",
+    "title": "Progresiones 1 a 6: funciones, límites y continuidad",
+    "topics": [
+     {
+      "id": "pm-3-u1-t1",
+      "title": "Antecedentes y desarrollo histórico del cálculo diferencial"
+     },
+     {
+      "id": "pm-3-u1-t2",
+      "title": "Idea intuitiva de límite y el problema de la recta tangente a una curva"
+     },
+     {
+      "id": "pm-3-u1-t3",
+      "title": "Funciones: elementos, clasificación y operaciones",
+      "summary": "Análisis gráfico y analítico: creciente, decreciente, continua o discontinua; máximos y mínimos."
+     },
+     {
+      "id": "pm-3-u1-t4",
+      "title": "Límite de una función, límites laterales, límites al infinito y sus propiedades"
+     },
+     {
+      "id": "pm-3-u1-t5",
+      "title": "Continuidad de funciones en la modelación de situaciones y fenómenos"
      }
     ]
    },
    {
-    "id": "ing-3-u2",
-    "title": "Experiences",
+    "id": "pm-3-u2",
+    "title": "Progresiones 7 a 10: la derivada",
     "topics": [
      {
-      "id": "ing-3-u2-t1",
-      "title": "Present perfect"
+      "id": "pm-3-u2-t1",
+      "title": "Noción intuitiva de la derivada: significado geométrico y razón de cambio"
+     },
+     {
+      "id": "pm-3-u2-t2",
+      "title": "Reglas de derivación",
+      "summary": "Regla de la suma, del producto, del cociente y regla de la cadena."
+     },
+     {
+      "id": "pm-3-u2-t3",
+      "title": "Modelación con la derivada como razón de cambio instantánea",
+      "summary": "Por ejemplo, la ley de enfriamiento de Newton y el llenado y vaciado de recipientes."
+     },
+     {
+      "id": "pm-3-u2-t4",
+      "title": "Criterios de la primera y segunda derivada",
+      "summary": "Máximos y mínimos, intervalos de crecimiento y decrecimiento, puntos de inflexión."
      }
     ]
-   }
-  ],
-  "quizzes": [],
-  "flashcards": []
- },
- {
-  "id": "cn-3",
-  "name": "Ecosistemas: interacciones, energía y dinámica",
-  "semester": 3,
-  "area": "Ciencias Naturales, Experimentales y Tecnología",
-  "description": "Ecología y flujo de energía.",
-  "units": [
+   },
    {
-    "id": "cn-3-u1",
-    "title": "Ecosistemas",
+    "id": "pm-3-u3",
+    "title": "Progresiones 11 a 15: aplicaciones y modelación",
     "topics": [
      {
-      "id": "cn-3-u1-t1",
-      "title": "Componentes bióticos y abióticos"
+      "id": "pm-3-u3-t1",
+      "title": "Optimización: áreas y volúmenes máximos"
      },
      {
-      "id": "cn-3-u1-t2",
-      "title": "Cadenas y redes tróficas"
+      "id": "pm-3-u3-t2",
+      "title": "Aplicaciones en economía matemática"
      },
      {
-      "id": "cn-3-u1-t3",
-      "title": "Ciclos biogeoquímicos"
+      "id": "pm-3-u3-t3",
+      "title": "Funciones exponenciales y logarítmicas como funciones inversas"
+     },
+     {
+      "id": "pm-3-u3-t4",
+      "title": "Periodicidad, funciones trigonométricas y modelado con funciones periódicas"
+     },
+     {
+      "id": "pm-3-u3-t5",
+      "title": "Modelación con funciones derivables; idea intuitiva de incertidumbre, caos y fractales"
+     },
+     {
+      "id": "pm-3-u3-t6",
+      "title": "Teorema fundamental del cálculo y áreas bajo una curva"
      }
     ]
    }
   ],
   "quizzes": [
    {
-    "id": "cn-3-q1",
-    "question": "Los productores en una cadena alimenticia son:",
+    "id": "pm-3-q1",
+    "question": "¿Qué reglas de derivación se estudian en Pensamiento Matemático III?",
     "options": [
-     "Los carnívoros",
-     "Las plantas y organismos fotosintéticos",
-     "Los hongos",
-     "Los herbívoros"
+     "Suma, producto, cociente y regla de la cadena",
+     "Solo la regla de la potencia",
+     "Regla de L'Hôpital y teorema de Rolle",
+     "Integración por partes y sustitución"
     ],
-    "answerIndex": 1,
-    "explanation": "Producen su alimento mediante fotosíntesis."
+    "answerIndex": 0,
+    "explanation": "El programa del curso menciona la regla para la suma, el producto, el cociente y la regla de la cadena."
+   }
+  ],
+  "flashcards": [
+   {
+    "id": "pm-3-f1",
+    "front": "¿Cuál es el propósito de Pensamiento Matemático III?",
+    "back": "Desarrollar el pensamiento variacional a partir de un enfoque intuitivo y aplicado al estudio del cálculo diferencial, sin descuidar los procesos matemáticos estructurados y formales."
+   },
+   {
+    "id": "pm-3-f2",
+    "front": "¿Para qué se usan los criterios de la primera y segunda derivada?",
+    "back": "Para encontrar máximos y mínimos de una función, determinar si es creciente o decreciente y localizar puntos de inflexión."
+   },
+   {
+    "id": "pm-3-f3",
+    "front": "¿Con qué cuatro categorías se describe el recurso sociocognitivo de Pensamiento matemático?",
+    "back": "Procedural, procesos de razonamiento, solución de problemas y modelación, e interacción y lenguaje matemático."
+   }
+  ]
+ },
+ {
+  "id": "cn-3",
+  "name": "Ecosistemas: Interacciones, Energía y Dinámica",
+  "semester": 3,
+  "area": "Ciencias naturales, experimentales y tecnología",
+  "description": "Se espera que valores el papel de los ecosistemas y los sistemas biológicos de la Tierra comprendiendo las interacciones de sus componentes. Se trabaja con la Metodología de la Indagación y la Metodología de las 5 Es. Fuente: Campus Virtual COBAEV 2026-B.",
+  "units": [
+   {
+    "id": "cn-3-u1",
+    "title": "Aprendizajes esperados",
+    "topics": [
+     {
+      "id": "cn-3-u1-t1",
+      "title": "Interacciones de los componentes de los ecosistemas y sistemas biológicos de la Tierra"
+     },
+     {
+      "id": "cn-3-u1-t2",
+      "title": "Circulación de la materia entre organismos vivos y no vivos"
+     },
+     {
+      "id": "cn-3-u1-t3",
+      "title": "Flujo continuo de energía en los ecosistemas"
+     },
+     {
+      "id": "cn-3-u1-t4",
+      "title": "Ciclo del carbono",
+      "summary": "Los átomos de carbono circulan desde la atmósfera hacia las plantas mediante la fotosíntesis, pasan por las redes alimentarias y regresan a la atmósfera."
+     },
+     {
+      "id": "cn-3-u1-t5",
+      "title": "Aplicaciones tecnológicas: medicina, nutrición, salud y sustentabilidad"
+     }
+    ]
    }
   ],
   "flashcards": [
    {
     "id": "cn-3-f1",
-    "front": "Fotosíntesis",
-    "back": "Proceso en el que las plantas transforman luz, agua y CO₂ en glucosa y oxígeno."
+    "front": "¿Cómo circulan los átomos de carbono en los ecosistemas?",
+    "back": "Desde la atmósfera hacia las plantas a través de la fotosíntesis; pasan por las redes alimentarias y eventualmente regresan a la atmósfera."
    }
   ]
  },
  {
-  "id": "ch-1",
-  "name": "Conciencia Histórica I",
+  "id": "tc-2",
+  "name": "Taller de Ciencias II",
   "semester": 3,
-  "area": "Conciencia Histórica",
-  "description": "Perspectivas del México antiguo en los contextos globales.",
-  "units": [
-   {
-    "id": "ch-1-u1",
-    "title": "México antiguo",
-    "topics": [
-     {
-      "id": "ch-1-u1-t1",
-      "title": "Mesoamérica"
-     },
-     {
-      "id": "ch-1-u1-t2",
-      "title": "Culturas originarias"
-     },
-     {
-      "id": "ch-1-u1-t3",
-      "title": "Contacto y conquista"
-     }
-    ]
-   }
-  ],
-  "quizzes": [],
-  "flashcards": []
+  "area": "Ciencias naturales, experimentales y tecnología",
+  "description": "UAC de 3.er semestre publicada en el Campus Virtual COBAEV 2026-B. El resumen público del curso no detalla progresiones; importa el paquete oficial de la materia cuando esté disponible.",
+  "units": []
  },
  {
-  "id": "pm-4",
-  "name": "Temas Selectos de Matemáticas I",
-  "semester": 4,
-  "area": "Pensamiento Matemático",
-  "description": "Geometría analítica y funciones.",
+  "id": "hum-3",
+  "name": "Humanidades III",
+  "semester": 3,
+  "area": "Humanidades",
+  "description": "Propósito: analiza críticamente la experiencia humana en el contexto actual, considerando las relaciones políticas, económicas, tecnológicas y sociales, para proponer alternativas que promuevan una vida más justa, equitativa y valiosa para todos. 11 progresiones. Fuente: Campus Virtual COBAEV 2026-B.",
   "units": [
    {
-    "id": "pm-4-u1",
-    "title": "Geometría analítica",
+    "id": "hum-3-u1",
+    "title": "Primer parcial (progresiones 1 a 4)",
     "topics": [
      {
-      "id": "pm-4-u1-t1",
-      "title": "Plano cartesiano"
+      "id": "hum-3-u1-t1",
+      "title": "Progresión 1: Asombro y pregunta"
      },
      {
-      "id": "pm-4-u1-t2",
-      "title": "La recta"
+      "id": "hum-3-u1-t2",
+      "title": "Progresión 2: Vida y problema"
      },
      {
-      "id": "pm-4-u1-t3",
-      "title": "Cónicas"
+      "id": "hum-3-u1-t3",
+      "title": "Progresión 3: Ser humano e historia"
+     },
+     {
+      "id": "hum-3-u1-t4",
+      "title": "Progresión 4: Crueldad (violencia) y animal"
      }
     ]
    },
    {
-    "id": "pm-4-u2",
-    "title": "Funciones",
+    "id": "hum-3-u2",
+    "title": "Segundo parcial (progresiones 5 a 8)",
     "topics": [
      {
-      "id": "pm-4-u2-t1",
-      "title": "Concepto de función"
+      "id": "hum-3-u2-t1",
+      "title": "Progresión 5: Dinero y tecnología"
      },
      {
-      "id": "pm-4-u2-t2",
-      "title": "Funciones lineales y cuadráticas"
+      "id": "hum-3-u2-t2",
+      "title": "Progresión 6: Alma y cosa"
+     },
+     {
+      "id": "hum-3-u2-t3",
+      "title": "Progresión 7: Naturaleza y humanidad"
+     },
+     {
+      "id": "hum-3-u2-t4",
+      "title": "Progresión 8: Mal; hombre-mujer"
      }
     ]
-   }
-  ],
-  "quizzes": [
+   },
    {
-    "id": "pm-4-q1",
-    "question": "La pendiente de la recta que pasa por (0,0) y (2,4) es:",
-    "options": [
-     "1",
-     "2",
-     "4",
-     "0.5"
-    ],
-    "answerIndex": 1,
-    "explanation": "m = (4−0)/(2−0) = 2."
+    "id": "hum-3-u3",
+    "title": "Tercer parcial (progresiones 9 a 11)",
+    "topics": [
+     {
+      "id": "hum-3-u3-t1",
+      "title": "Progresión 9: Yo-otra(o) y sí misma(o)"
+     },
+     {
+      "id": "hum-3-u3-t2",
+      "title": "Progresión 10: Argumento y prueba"
+     },
+     {
+      "id": "hum-3-u3-t3",
+      "title": "Progresión 11: Teleología y perfección"
+     }
+    ]
    }
   ],
   "flashcards": [
    {
-    "id": "pm-4-f1",
-    "front": "Pendiente",
-    "back": "m = (y₂ − y₁) / (x₂ − x₁)"
+    "id": "hum-3-f1",
+    "front": "¿Cuál es el propósito general de Humanidades III?",
+    "back": "Analizar críticamente la experiencia humana en el contexto actual, considerando las relaciones políticas, económicas, tecnológicas y sociales, para proponer alternativas que promuevan una vida más justa, equitativa y valiosa para todos."
    }
   ]
- },
- {
-  "id": "ing-4",
-  "name": "Inglés IV",
-  "semester": 4,
-  "area": "Inglés",
-  "description": "Comunicación en contextos académicos.",
-  "units": [
-   {
-    "id": "ing-4-u1",
-    "title": "Academic English",
-    "topics": [
-     {
-      "id": "ing-4-u1-t1",
-      "title": "Modal verbs"
-     },
-     {
-      "id": "ing-4-u1-t2",
-      "title": "Conditionals"
-     }
-    ]
-   }
-  ],
-  "quizzes": [],
-  "flashcards": []
- },
- {
-  "id": "cn-4",
-  "name": "Reacciones químicas: conservación de la materia en la formación de nuevas sustancias",
-  "semester": 4,
-  "area": "Ciencias Naturales, Experimentales y Tecnología",
-  "description": "Reacciones y estequiometría.",
-  "units": [
-   {
-    "id": "cn-4-u1",
-    "title": "Reacciones químicas",
-    "topics": [
-     {
-      "id": "cn-4-u1-t1",
-      "title": "Tipos de reacciones"
-     },
-     {
-      "id": "cn-4-u1-t2",
-      "title": "Balanceo de ecuaciones"
-     },
-     {
-      "id": "cn-4-u1-t3",
-      "title": "Ley de conservación de la masa"
-     }
-    ]
-   }
-  ],
-  "quizzes": [
-   {
-    "id": "cn-4-q1",
-    "question": "Según la ley de conservación de la masa:",
-    "options": [
-     "La masa se pierde en la reacción",
-     "La masa de reactivos es igual a la de productos",
-     "Solo los gases conservan masa",
-     "La masa aumenta"
-    ],
-    "answerIndex": 1,
-    "explanation": "Lavoisier: la materia no se crea ni se destruye."
-   }
-  ],
-  "flashcards": []
  },
  {
   "id": "ch-2",
-  "name": "Conciencia Histórica II",
-  "semester": 4,
-  "area": "Conciencia Histórica",
-  "description": "México durante el expansionismo capitalista.",
-  "units": [
-   {
-    "id": "ch-2-u1",
-    "title": "Siglos XIX y XX",
-    "topics": [
-     {
-      "id": "ch-2-u1-t1",
-      "title": "Independencia"
-     },
-     {
-      "id": "ch-2-u1-t2",
-      "title": "Reforma"
-     },
-     {
-      "id": "ch-2-u1-t3",
-      "title": "Porfiriato"
-     },
-     {
-      "id": "ch-2-u1-t4",
-      "title": "Revolución Mexicana"
-     }
-    ]
-   }
-  ],
-  "quizzes": [
-   {
-    "id": "ch-2-q1",
-    "question": "La Revolución Mexicana inició en:",
-    "options": [
-     "1810",
-     "1857",
-     "1910",
-     "1917"
-    ],
-    "answerIndex": 2,
-    "explanation": "Inició el 20 de noviembre de 1910."
-   }
-  ],
-  "flashcards": []
- },
- {
-  "id": "pm-5",
-  "name": "Temas Selectos de Matemáticas II",
+  "name": "Conciencia Histórica II. México durante el expansionismo capitalista",
   "semester": 5,
-  "area": "Pensamiento Matemático",
-  "description": "Cálculo diferencial.",
-  "units": [
-   {
-    "id": "pm-5-u1",
-    "title": "Límites",
-    "topics": [
-     {
-      "id": "pm-5-u1-t1",
-      "title": "Concepto de límite"
-     },
-     {
-      "id": "pm-5-u1-t2",
-      "title": "Límites laterales"
-     }
-    ]
-   },
-   {
-    "id": "pm-5-u2",
-    "title": "Derivadas",
-    "topics": [
-     {
-      "id": "pm-5-u2-t1",
-      "title": "Concepto de derivada"
-     },
-     {
-      "id": "pm-5-u2-t2",
-      "title": "Reglas de derivación"
-     },
-     {
-      "id": "pm-5-u2-t3",
-      "title": "Aplicaciones"
-     }
-    ]
-   }
-  ],
-  "quizzes": [
-   {
-    "id": "pm-5-q1",
-    "question": "La derivada de x² es:",
-    "options": [
-     "x",
-     "2x",
-     "x³/3",
-     "2"
-    ],
-    "answerIndex": 1,
-    "explanation": "Regla de la potencia: d/dx xⁿ = n·xⁿ⁻¹."
-   }
-  ],
-  "flashcards": [
-   {
-    "id": "pm-5-f1",
-    "front": "Regla de la potencia",
-    "back": "d/dx xⁿ = n·xⁿ⁻¹"
-   }
-  ]
- },
- {
-  "id": "ing-5",
-  "name": "Inglés V",
-  "semester": 5,
-  "area": "Inglés",
-  "description": "Inglés para el trabajo y la vida académica.",
-  "units": [
-   {
-    "id": "ing-5-u1",
-    "title": "Professional English",
-    "topics": [
-     {
-      "id": "ing-5-u1-t1",
-      "title": "Passive voice"
-     },
-     {
-      "id": "ing-5-u1-t2",
-      "title": "Reported speech"
-     }
-    ]
-   }
-  ],
-  "quizzes": [],
-  "flashcards": []
+  "area": "Conciencia histórica",
+  "description": "Currículum fundamental, 3 h/semana (60 h), 6 créditos (Estructura curricular DGB (MCCEMS), junio 2024). El resumen público del curso no detalla progresiones; importa el paquete oficial de la materia cuando esté disponible.",
+  "units": []
  },
  {
   "id": "cn-5",
   "name": "La energía en los procesos de la vida diaria",
   "semester": 5,
-  "area": "Ciencias Naturales, Experimentales y Tecnología",
-  "description": "Física aplicada: electricidad y magnetismo.",
+  "area": "Ciencias naturales, experimentales y tecnología",
+  "description": "Currículum fundamental, 4 h/semana (80 h), 8 créditos (Estructura curricular DGB (MCCEMS), junio 2024). Construye modelos para describir, explicar y predecir cómo la energía se transfiere y transforma en distintos sistemas. 16 progresiones. Fuente de contenidos: Campus Virtual COBAEV 2026-B.",
   "units": [
    {
     "id": "cn-5-u1",
-    "title": "Electricidad",
+    "title": "Primer parcial: conocimientos previos y progresiones 1 a 5",
     "topics": [
      {
       "id": "cn-5-u1-t1",
-      "title": "Carga eléctrica"
+      "title": "Movimiento rectilíneo uniforme y uniformemente acelerado (conocimientos previos)"
      },
      {
       "id": "cn-5-u1-t2",
-      "title": "Ley de Ohm"
+      "title": "Relación entre fuerza, movimiento y energía"
      },
      {
       "id": "cn-5-u1-t3",
-      "title": "Circuitos"
+      "title": "Masa, inercia, fuerza neta y trabajo"
+     },
+     {
+      "id": "cn-5-u1-t4",
+      "title": "Leyes de Newton",
+      "summary": "Relación entre fuerza, masa y aceleración para explicar y predecir cambios en el movimiento."
+     },
+     {
+      "id": "cn-5-u1-t5",
+      "title": "Momento lineal, su conservación, interacciones y colisiones"
+     }
+    ]
+   },
+   {
+    "id": "cn-5-u2",
+    "title": "Segundo parcial: progresiones 6 a 10",
+    "topics": [
+     {
+      "id": "cn-5-u2-t1",
+      "title": "Radiación electromagnética: modelos ondulatorio y corpuscular de la luz"
+     },
+     {
+      "id": "cn-5-u2-t2",
+      "title": "Interacciones gravitacional y electrostática: Ley de Gravitación Universal y Ley de Coulomb"
+     },
+     {
+      "id": "cn-5-u2-t3",
+      "title": "Conservación, transferencia y transformación de la energía"
+     },
+     {
+      "id": "cn-5-u2-t4",
+      "title": "Campo eléctrico y magnético"
+     },
+     {
+      "id": "cn-5-u2-t5",
+      "title": "Electromagnetismo, inducción electromagnética y fuerza sobre cargas en movimiento"
+     }
+    ]
+   },
+   {
+    "id": "cn-5-u3",
+    "title": "Tercer parcial: progresiones 11 a 16",
+    "topics": [
+     {
+      "id": "cn-5-u3-t1",
+      "title": "Energía almacenada en campos gravitacionales y eléctricos"
+     },
+     {
+      "id": "cn-5-u3-t2",
+      "title": "Potencial eléctrico, diferencia de potencial, corriente y Ley de Ohm"
+     },
+     {
+      "id": "cn-5-u3-t3",
+      "title": "Transformación de la energía eléctrica en movimiento, calor, luz y sonido"
+     },
+     {
+      "id": "cn-5-u3-t4",
+      "title": "Interacción de la radiación con la materia y respiración celular"
+     },
+     {
+      "id": "cn-5-u3-t5",
+      "title": "Energía solar en los sistemas terrestres y fotosíntesis"
+     },
+     {
+      "id": "cn-5-u3-t6",
+      "title": "Flujos de energía en la Tierra: convección del manto, tectónica de placas y sismos"
      }
     ]
    }
@@ -1299,186 +511,558 @@
   "quizzes": [
    {
     "id": "cn-5-q1",
-    "question": "Según la ley de Ohm, V =",
+    "question": "¿Con qué leyes se estudian las interacciones gravitacional y electrostática en esta UAC?",
     "options": [
-     "I / R",
-     "I · R",
-     "R / I",
-     "I + R"
+     "Ley de Gravitación Universal y Ley de Coulomb",
+     "Ley de Ohm y Ley de Hooke",
+     "Leyes de Kepler y Ley de Boyle",
+     "Ley de Snell y Ley de Faraday"
     ],
-    "answerIndex": 1,
-    "explanation": "Voltaje = corriente × resistencia."
+    "answerIndex": 0,
+    "explanation": "El segundo parcial estudia las interacciones gravitacional y electrostática mediante la Ley de Gravitación Universal y la Ley de Coulomb."
    }
   ],
   "flashcards": [
    {
     "id": "cn-5-f1",
-    "front": "Ley de Ohm",
-    "back": "V = I · R"
+    "front": "¿Qué modelos de la luz se usan para analizar la radiación electromagnética?",
+    "back": "El modelo ondulatorio y el modelo corpuscular."
+   },
+   {
+    "id": "cn-5-f2",
+    "front": "¿Qué conceptos eléctricos se estudian en el tercer parcial?",
+    "back": "Potencial eléctrico, diferencia de potencial, corriente y Ley de Ohm."
    }
   ]
  },
  {
-  "id": "ch-3",
-  "name": "Conciencia Histórica III",
+  "id": "psic-1",
+  "name": "Psicología I",
   "semester": 5,
-  "area": "Conciencia Histórica",
-  "description": "La realidad actual en perspectiva histórica.",
+  "area": "Fundamental extendido",
+  "description": "UAC fundamental extendida, 3 h/semana, 6 créditos (Estructura curricular DGB (MCCEMS), junio 2024). Identifica cómo los procesos psicológicos y fisiológicos influyen en el comportamiento y las relaciones con los demás. 9 progresiones. Fuente: Campus Virtual COBAEV 2026-B.",
   "units": [
    {
-    "id": "ch-3-u1",
-    "title": "México contemporáneo",
+    "id": "psic-1-u1",
+    "title": "Primer parcial (progresiones 1 a 4)",
     "topics": [
      {
-      "id": "ch-3-u1-t1",
-      "title": "Siglo XX tardío"
+      "id": "psic-1-u1-t1",
+      "title": "Progresión 1: Psique; estudios sobre el alma"
      },
      {
-      "id": "ch-3-u1-t2",
-      "title": "Globalización"
+      "id": "psic-1-u1-t2",
+      "title": "Progresión 2: Nacimiento de la psicología; evolución de la psicología científica"
      },
      {
-      "id": "ch-3-u1-t3",
-      "title": "Retos actuales"
-     }
-    ]
-   }
-  ],
-  "quizzes": [],
-  "flashcards": []
- },
- {
-  "id": "pm-6",
-  "name": "Temas Selectos de Matemáticas III",
-  "semester": 6,
-  "area": "Pensamiento Matemático",
-  "description": "Cálculo integral.",
-  "units": [
-   {
-    "id": "pm-6-u1",
-    "title": "Integrales",
-    "topics": [
-     {
-      "id": "pm-6-u1-t1",
-      "title": "Antiderivada"
+      "id": "psic-1-u1-t3",
+      "title": "Progresión 3: Principales corrientes psicológicas; usos y aplicaciones de la psicología"
      },
      {
-      "id": "pm-6-u1-t2",
-      "title": "Integral definida"
-     },
-     {
-      "id": "pm-6-u1-t3",
-      "title": "Aplicaciones del área bajo la curva"
-     }
-    ]
-   }
-  ],
-  "quizzes": [
-   {
-    "id": "pm-6-q1",
-    "question": "La integral de 2x dx es:",
-    "options": [
-     "x² + C",
-     "2x² + C",
-     "x + C",
-     "2 + C"
-    ],
-    "answerIndex": 0,
-    "explanation": "Porque la derivada de x² es 2x."
-   }
-  ],
-  "flashcards": []
- },
- {
-  "id": "cn-6",
-  "name": "Organismos: estructuras y procesos. Herencia y evolución biológica",
-  "semester": 6,
-  "area": "Ciencias Naturales, Experimentales y Tecnología",
-  "description": "Biología celular, genética y evolución.",
-  "units": [
-   {
-    "id": "cn-6-u1",
-    "title": "La célula",
-    "topics": [
-     {
-      "id": "cn-6-u1-t1",
-      "title": "Teoría celular"
-     },
-     {
-      "id": "cn-6-u1-t2",
-      "title": "Célula procariota y eucariota"
+      "id": "psic-1-u1-t4",
+      "title": "Progresión 4: Áreas de estudio de la psicología; aplicaciones en el contexto"
      }
     ]
    },
    {
-    "id": "cn-6-u2",
-    "title": "Herencia y evolución",
+    "id": "psic-1-u2",
+    "title": "Segundo parcial (progresiones 5 y 6)",
     "topics": [
      {
-      "id": "cn-6-u2-t1",
-      "title": "ADN"
+      "id": "psic-1-u2-t1",
+      "title": "Progresión 5: Bases fisiológicas de la conducta; estructura y funcionamiento"
      },
      {
-      "id": "cn-6-u2-t2",
-      "title": "Leyes de Mendel"
-     },
-     {
-      "id": "cn-6-u2-t3",
-      "title": "Selección natural"
+      "id": "psic-1-u2-t2",
+      "title": "Progresión 6: Estructura y funcionamiento del sistema endocrino; influencia en la conducta humana"
      }
     ]
-   }
-  ],
-  "quizzes": [
+   },
    {
-    "id": "cn-6-q1",
-    "question": "¿Qué organelo realiza la respiración celular?",
-    "options": [
-     "Ribosoma",
-     "Mitocondria",
-     "Núcleo",
-     "Vacuola"
-    ],
-    "answerIndex": 1,
-    "explanation": "La mitocondria produce ATP."
+    "id": "psic-1-u3",
+    "title": "Tercer parcial (progresiones 7 a 9)",
+    "topics": [
+     {
+      "id": "psic-1-u3-t1",
+      "title": "Progresión 7: Las emociones; autoconocimiento emocional"
+     },
+     {
+      "id": "psic-1-u3-t2",
+      "title": "Progresión 8: Causas de los principales problemas emocionales; hábitos de vida saludable"
+     },
+     {
+      "id": "psic-1-u3-t3",
+      "title": "Progresión 9: Estrategias motivacionales; impacto en la vida cotidiana"
+     }
+    ]
    }
   ],
   "flashcards": [
    {
-    "id": "cn-6-f1",
-    "front": "ADN",
-    "back": "Molécula que contiene la información genética."
-   },
-   {
-    "id": "cn-6-f2",
-    "front": "Selección natural",
-    "back": "Mecanismo evolutivo propuesto por Darwin."
+    "id": "psic-1-f1",
+    "front": "¿Qué habilidades socioemocionales busca fortalecer Psicología I?",
+    "back": "La empatía, la comunicación asertiva y la autorregulación emocional."
    }
   ]
  },
  {
-  "id": "hum-6",
-  "name": "Humanidades III",
-  "semester": 6,
-  "area": "Humanidades",
-  "description": "Proyecto de vida y pensamiento crítico.",
+  "id": "eco-1",
+  "name": "Economía I. La Función de los Agentes Económicos en la Sociedad",
+  "semester": 5,
+  "area": "Ciencias sociales · Fundamental extendido",
+  "description": "UAC fundamental extendida, 3 h/semana, 6 créditos (Estructura curricular DGB (MCCEMS), junio 2024). Comprensión integral de los conceptos básicos de la economía y del impacto de las decisiones de los agentes económicos. 8 progresiones. Fuente: Campus Virtual COBAEV 2026-B.",
   "units": [
    {
-    "id": "hum-6-u1",
-    "title": "Proyecto de vida",
+    "id": "eco-1-u1",
+    "title": "Primer parcial (progresiones 1 a 3)",
     "topics": [
      {
-      "id": "hum-6-u1-t1",
-      "title": "Toma de decisiones"
+      "id": "eco-1-u1-t1",
+      "title": "Progresión 1: Concepto y campos de estudio de la economía",
+      "summary": "Producción, distribución y consumo de bienes y servicios; enfoques teóricos y el problema de la escasez."
      },
      {
-      "id": "hum-6-u1-t2",
-      "title": "Ética y sociedad"
+      "id": "eco-1-u1-t2",
+      "title": "Progresión 2: Agentes económicos",
+      "summary": "Clasificación, características, funciones e interacciones."
+     },
+     {
+      "id": "eco-1-u1-t3",
+      "title": "Progresión 3: Factores de la producción",
+      "summary": "Conceptualización, clasificación e interrelación."
+     }
+    ]
+   },
+   {
+    "id": "eco-1-u2",
+    "title": "Segundo parcial (progresiones 4 a 6)",
+    "topics": [
+     {
+      "id": "eco-1-u2-t1",
+      "title": "Progresión 4: Intervención del gobierno en la economía",
+      "summary": "Sistemas económicos actuales, instituciones, desarrollo económico y bienestar social."
+     },
+     {
+      "id": "eco-1-u2-t2",
+      "title": "Progresión 5: Oferta y demanda",
+      "summary": "Leyes, determinantes y equilibrio de mercado; asignación de recursos."
+     },
+     {
+      "id": "eco-1-u2-t3",
+      "title": "Progresión 6: Teoría del consumidor y del productor",
+      "summary": "Presupuesto, función de producción y costos."
+     }
+    ]
+   },
+   {
+    "id": "eco-1-u3",
+    "title": "Tercer parcial (progresiones 7 y 8)",
+    "topics": [
+     {
+      "id": "eco-1-u3-t1",
+      "title": "Progresión 7: Mercados de competencia perfecta e imperfecta"
+     },
+     {
+      "id": "eco-1-u3-t2",
+      "title": "Progresión 8: Mercados local, regional, nacional e internacional",
+      "summary": "Indicadores macroeconómicos, disponibilidad y precios de bienes y servicios."
      }
     ]
    }
   ],
-  "quizzes": [],
-  "flashcards": []
+  "flashcards": [
+   {
+    "id": "eco-1-f1",
+    "front": "¿Qué se analiza al estudiar la oferta y la demanda en Economía I?",
+    "back": "Sus leyes, determinantes y el equilibrio de mercado, para interpretar cómo se realiza la asignación de los recursos en la economía."
+   },
+   {
+    "id": "eco-1-f2",
+    "front": "¿Qué problema enfrentan las sociedades según la progresión 1 de Economía I?",
+    "back": "El problema de la escasez."
+   }
+  ]
+ },
+ {
+  "id": "com-soc-1",
+  "name": "Comunicación y Sociedad I",
+  "semester": 5,
+  "area": "Fundamental extendido",
+  "description": "UAC fundamental extendida, 3 h/semana, 6 créditos (Estructura curricular DGB (MCCEMS), junio 2024). Mediante el proceso comunicativo, generar conocimientos y transmitir, recibir e intercambiar ideas de manera eficiente, identificando formas de comunicación digital y no digital. 7 progresiones. Fuente: Campus Virtual COBAEV 2026-B.",
+  "units": [
+   {
+    "id": "com-soc-1-u1",
+    "title": "Primer parcial (progresiones 1 y 2)",
+    "topics": [
+     {
+      "id": "com-soc-1-u1-t1",
+      "title": "Progresión 1: Elementos esenciales del proceso comunicativo"
+     },
+     {
+      "id": "com-soc-1-u1-t2",
+      "title": "Progresión 2: Intención comunicativa de los mensajes y canal de transmisión"
+     }
+    ]
+   },
+   {
+    "id": "com-soc-1-u2",
+    "title": "Segundo parcial (progresiones 3 a 5)",
+    "topics": [
+     {
+      "id": "com-soc-1-u2-t1",
+      "title": "Progresión 3: El emisor como constructor de mensajes mediante un código"
+     },
+     {
+      "id": "com-soc-1-u2-t2",
+      "title": "Progresión 4: Condiciones de producción del mensaje; objetividad y veracidad del contenido"
+     },
+     {
+      "id": "com-soc-1-u2-t3",
+      "title": "Progresión 5: Tipos de interacciones de la comunicación"
+     }
+    ]
+   },
+   {
+    "id": "com-soc-1-u3",
+    "title": "Tercer parcial (progresiones 6 y 7)",
+    "topics": [
+     {
+      "id": "com-soc-1-u3-t1",
+      "title": "Progresión 6: Barreras de la comunicación"
+     },
+     {
+      "id": "com-soc-1-u3-t2",
+      "title": "Progresión 7: Creación de un producto comunicativo efectivo"
+     }
+    ]
+   }
+  ],
+  "flashcards": [
+   {
+    "id": "com-soc-1-f1",
+    "front": "¿Para qué se identifican las barreras de la comunicación (progresión 6)?",
+    "back": "Para evitar los obstáculos presentes en los diferentes entornos, prevenirlos o incluso reestructurar el proceso comunicativo."
+   }
+  ]
+ },
+ {
+  "id": "der-soc-1",
+  "name": "Derecho y Sociedad I",
+  "semester": 5,
+  "area": "Ciencias sociales · Fundamental extendido",
+  "description": "UAC fundamental extendida, 3 h/semana, 6 créditos (Estructura curricular DGB (MCCEMS), junio 2024). Comprender la importancia del sistema jurídico mexicano y su utilidad en la organización y el funcionamiento de la sociedad. 8 progresiones. Fuente: Campus Virtual COBAEV 2026-B.",
+  "units": [
+   {
+    "id": "der-soc-1-u1",
+    "title": "Categorías de la UAC",
+    "topics": [
+     {
+      "id": "der-soc-1-u1-t1",
+      "title": "Normas jurídicas y leyes"
+     },
+     {
+      "id": "der-soc-1-u1-t2",
+      "title": "La organización de la sociedad"
+     },
+     {
+      "id": "der-soc-1-u1-t3",
+      "title": "Las relaciones de poder"
+     }
+    ]
+   },
+   {
+    "id": "der-soc-1-u2",
+    "title": "Metas de aprendizaje",
+    "topics": [
+     {
+      "id": "der-soc-1-u2-t1",
+      "title": "Funciones y poderes del Estado; concepto, ramas y enfoques del Derecho como ciencia social"
+     },
+     {
+      "id": "der-soc-1-u2-t2",
+      "title": "Funciones e importancia de las normas jurídicas en diversas situaciones y contextos"
+     },
+     {
+      "id": "der-soc-1-u2-t3",
+      "title": "Relaciones y estructuras sociales de poder y su vínculo con el aparato jurídico"
+     },
+     {
+      "id": "der-soc-1-u2-t4",
+      "title": "Articulación del Estado con el Derecho y la sociedad; Estado de Derecho"
+     },
+     {
+      "id": "der-soc-1-u2-t5",
+      "title": "Transformaciones sociales y cambios en el sistema jurídico"
+     },
+     {
+      "id": "der-soc-1-u2-t6",
+      "title": "Medios alternativos para la resolución de conflictos"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "tpv-1",
+  "name": "Taller de Pensamiento Variacional I",
+  "semester": 5,
+  "area": "Pensamiento matemático · Fundamental extendido",
+  "description": "UAC fundamental extendida, 3 h/semana, 6 créditos (Estructura curricular DGB (MCCEMS), junio 2024). Profundiza en límites, derivadas y teoremas básicos del cálculo diferencial y su aplicación en problemas científicos y cotidianos. 8 progresiones. Fuente: Campus Virtual COBAEV 2026-B.",
+  "units": [
+   {
+    "id": "tpv-1-u1",
+    "title": "Progresiones 1 y 2: límites",
+    "topics": [
+     {
+      "id": "tpv-1-u1-t1",
+      "title": "Simplificación de expresiones algebraicas"
+     },
+     {
+      "id": "tpv-1-u1-t2",
+      "title": "Cálculo de límites con métodos analíticos y tecnológicos"
+     }
+    ]
+   },
+   {
+    "id": "tpv-1-u2",
+    "title": "Progresiones 3 y 4: derivadas",
+    "topics": [
+     {
+      "id": "tpv-1-u2-t1",
+      "title": "Definición formal de la derivada a partir del problema de la recta secante"
+     },
+     {
+      "id": "tpv-1-u2-t2",
+      "title": "Regla del producto, del cociente y de la cadena"
+     }
+    ]
+   },
+   {
+    "id": "tpv-1-u3",
+    "title": "Progresiones 5 y 6: teoremas",
+    "topics": [
+     {
+      "id": "tpv-1-u3-t1",
+      "title": "Teorema del valor medio y teorema de Rolle"
+     },
+     {
+      "id": "tpv-1-u3-t2",
+      "title": "Regla de L'Hôpital para límites indeterminados"
+     }
+    ]
+   },
+   {
+    "id": "tpv-1-u4",
+    "title": "Progresiones 7 y 8: modelación",
+    "topics": [
+     {
+      "id": "tpv-1-u4-t1",
+      "title": "Modelos con la derivada como herramienta analítica e intuitiva"
+     }
+    ]
+   }
+  ],
+  "quizzes": [
+   {
+    "id": "tpv-1-q1",
+    "question": "En el Taller de Pensamiento Variacional I, ¿para qué se aplica la regla de L'Hôpital?",
+    "options": [
+     "Para solucionar límites indeterminados",
+     "Para calcular áreas bajo una curva",
+     "Para resolver sistemas de ecuaciones lineales",
+     "Para obtener la media de un conjunto de datos"
+    ],
+    "answerIndex": 0,
+    "explanation": "El programa del curso indica que se aplica la regla de L'Hôpital para solucionar límites indeterminados."
+   }
+  ],
+  "flashcards": [
+   {
+    "id": "tpv-1-f1",
+    "front": "¿Qué teoremas del cálculo diferencial se analizan en las progresiones 5 y 6 del Taller de Pensamiento Variacional I?",
+    "back": "El teorema del valor medio y el teorema de Rolle."
+   },
+   {
+    "id": "tpv-1-f2",
+    "front": "¿Con qué cuatro categorías se describe el recurso sociocognitivo de Pensamiento matemático?",
+    "back": "Procedural, procesos de razonamiento, solución de problemas y modelación, e interacción y lenguaje matemático."
+   }
+  ]
+ },
+ {
+  "id": "pro-cont-1",
+  "name": "Procesos Contables I",
+  "semester": 5,
+  "area": "Ciencias sociales · Fundamental extendido",
+  "description": "UAC fundamental extendida, 3 h/semana, 6 créditos (Estructura curricular DGB (MCCEMS), junio 2024). Desarrolla conocimientos y habilidades en el registro y control de la información financiera, aplicando normas contables e interpretando estados financieros. 8 progresiones. Fuente: Campus Virtual COBAEV 2026-B.",
+  "units": [
+   {
+    "id": "pro-cont-1-u1",
+    "title": "Aprendizaje de trayectoria",
+    "topics": [
+     {
+      "id": "pro-cont-1-u1-t1",
+      "title": "Generalidades de la contabilidad"
+     },
+     {
+      "id": "pro-cont-1-u1-t2",
+      "title": "Normas de información financiera"
+     },
+     {
+      "id": "pro-cont-1-u1-t3",
+      "title": "Situación económica de una organización"
+     },
+     {
+      "id": "pro-cont-1-u1-t4",
+      "title": "Estados financieros básicos con herramientas tecnológicas"
+     },
+     {
+      "id": "pro-cont-1-u1-t5",
+      "title": "Cultura financiera y administración de recursos"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "fund-adm-1",
+  "name": "Fundamentos de Administración I",
+  "semester": 5,
+  "area": "Ciencias sociales · Fundamental extendido",
+  "description": "UAC fundamental extendida, 3 h/semana, 6 créditos (Estructura curricular DGB (MCCEMS), junio 2024). Trayectoria histórica de los fundamentos de la administración y su aplicación en la vida cotidiana y en cualquier organización. 8 progresiones. Fuente: Campus Virtual COBAEV 2026-B.",
+  "units": [
+   {
+    "id": "fund-adm-1-u1",
+    "title": "Aprendizaje de trayectoria",
+    "topics": [
+     {
+      "id": "fund-adm-1-u1-t1",
+      "title": "Evolución del pensamiento administrativo"
+     },
+     {
+      "id": "fund-adm-1-u1-t2",
+      "title": "La administración en la familia, la escuela, la comunidad y el gobierno"
+     },
+     {
+      "id": "fund-adm-1-u1-t3",
+      "title": "Trabajo colaborativo y su beneficio social"
+     },
+     {
+      "id": "fund-adm-1-u1-t4",
+      "title": "Características de los procesos administrativos y su aplicación en distintos contextos"
+     },
+     {
+      "id": "fund-adm-1-u1-t5",
+      "title": "Toma de decisiones informadas"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "afpb-1",
+  "name": "Análisis de Fenómenos y Procesos Biológicos",
+  "semester": 5,
+  "area": "Ciencias naturales, experimentales y tecnología · Fundamental extendido",
+  "description": "UAC fundamental extendida, 3 h/semana, 6 créditos (Estructura curricular DGB (MCCEMS), junio 2024). Características de los seres vivos y principios básicos de los procesos biológicos, del nivel celular al individuo. Metodología de la Indagación y de las 5 Es. Fuente: Campus Virtual COBAEV 2026-B.",
+  "units": [
+   {
+    "id": "afpb-1-u1",
+    "title": "Aprendizajes esperados",
+    "topics": [
+     {
+      "id": "afpb-1-u1-t1",
+      "title": "Características de los seres vivos"
+     },
+     {
+      "id": "afpb-1-u1-t2",
+      "title": "Principios básicos de los procesos biológicos"
+     },
+     {
+      "id": "afpb-1-u1-t3",
+      "title": "Genética"
+     },
+     {
+      "id": "afpb-1-u1-t4",
+      "title": "Biotecnología: salud, industria alimentaria y conservación ambiental"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ofme-1",
+  "name": "Organización del Flujo de Materia y Energía en los Organismos I",
+  "semester": 5,
+  "area": "Ciencias naturales, experimentales y tecnología · Fundamental extendido",
+  "description": "UAC fundamental extendida, 3 h/semana, 6 créditos (Estructura curricular DGB (MCCEMS), junio 2024). El resumen público del curso no detalla progresiones; importa el paquete oficial de la materia cuando esté disponible.",
+  "units": []
+ },
+ {
+  "id": "afis-1",
+  "name": "Análisis de Fenómenos Físicos I",
+  "semester": 5,
+  "area": "Fundamental extendido",
+  "description": "UAC fundamental extendida, 3 h/semana, 6 créditos (Estructura curricular DGB (MCCEMS), junio 2024). El resumen público del curso no detalla progresiones; importa el paquete oficial de la materia cuando esté disponible.",
+  "units": []
+ },
+ {
+  "id": "dib-tec-1",
+  "name": "Dibujo Técnico I",
+  "semester": 5,
+  "area": "Fundamental extendido",
+  "description": "UAC fundamental extendida, 3 h/semana, 6 créditos (Estructura curricular DGB (MCCEMS), junio 2024). El resumen público del curso no detalla progresiones; importa el paquete oficial de la materia cuando esté disponible.",
+  "units": []
+ },
+ {
+  "id": "salud-1",
+  "name": "Salud Integral I",
+  "semester": 5,
+  "area": "Fundamental extendido",
+  "description": "UAC fundamental extendida, 3 h/semana, 6 créditos (Estructura curricular DGB (MCCEMS), junio 2024). El resumen público del curso no detalla progresiones; importa el paquete oficial de la materia cuando esté disponible.",
+  "units": []
+ },
+ {
+  "id": "tscs-1",
+  "name": "Temas Selectos de Ciencias Sociales I",
+  "semester": 5,
+  "area": "Ciencias sociales · Fundamental extendido",
+  "description": "UAC para estudiantes de quinto semestre (categoría \"Artes\" del Campus Virtual COBAEV 2026-B). Retoma el programa de Ciencias Sociales III para analizar la estructura y el funcionamiento de la sociedad. 7 progresiones.",
+  "units": [
+   {
+    "id": "tscs-1-u1",
+    "title": "Metas de aprendizaje",
+    "topics": [
+     {
+      "id": "tscs-1-u1-t1",
+      "title": "Estructuras sociales y organización de las sociedades"
+     },
+     {
+      "id": "tscs-1-u1-t2",
+      "title": "Relaciones de poder formales e informales"
+     },
+     {
+      "id": "tscs-1-u1-t3",
+      "title": "Articulación del Estado con la sociedad"
+     },
+     {
+      "id": "tscs-1-u1-t4",
+      "title": "Agentes sociales: funciones, interacciones y actividades"
+     },
+     {
+      "id": "tscs-1-u1-t5",
+      "title": "Procesos de producción y distribución y el origen de las desigualdades"
+     },
+     {
+      "id": "tscs-1-u1-t6",
+      "title": "Funciones del Estado, sus instituciones y mecanismos de participación"
+     },
+     {
+      "id": "tscs-1-u1-t7",
+      "title": "Cambios y transformaciones sociales y sus implicaciones en las normas sociales y jurídicas"
+     }
+    ]
+   }
+  ]
  }
 ]

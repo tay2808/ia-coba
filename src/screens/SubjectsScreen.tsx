@@ -39,8 +39,10 @@ export default function SubjectsScreen() {
     }
   };
 
+  // El ciclo 2026-B solo imparte 1.º, 3.º y 5.º; los filtros salen de las materias instaladas.
+  const semesters = [...new Set(subjects.map(s => s.semester))].sort((a, b) => a - b);
   const filtered = semester ? subjects.filter(s => s.semester === semester) : subjects;
-  const sections = [1, 2, 3, 4, 5, 6]
+  const sections = semesters
     .map(n => ({ title: `${n}.º semestre`, data: filtered.filter(s => s.semester === n) }))
     .filter(s => s.data.length);
 
@@ -48,7 +50,7 @@ export default function SubjectsScreen() {
     <View style={[styles.container, { backgroundColor: colors.background }]}>
       <Row>
         <Chip label="Todos" selected={semester === null} onPress={() => setSemester(null)} />
-        {[1, 2, 3, 4, 5, 6].map(n => (
+        {semesters.map(n => (
           <Chip key={n} label={`${n}.º`} selected={semester === n} onPress={() => setSemester(n)} />
         ))}
       </Row>

@@ -27,11 +27,12 @@ embeddings.f32     opcional – embeddings precalculados (requiere chunks.jsonl)
 
 - `id` identifica el paquete: importar otro con el mismo `id` **reemplaza** sus materias, preguntas, flashcards y fragmentos (se conserva el progreso de repaso de las flashcards que no cambiaron).
 - No se permite instalar una `curriculumVersion` anterior a la ya instalada (`2026-B` > `2026-A` > `2025-B`).
+- Cada materia debe ser de un semestre que se curse en ese ciclo: en los ciclos `B` (agosto–enero) solo 1.º, 3.º y 5.º, y en los `A` (febrero–julio) solo 2.º, 4.º y 6.º.
 - Los nombres de archivo solo pueden contener letras, números, `.`, `_` y `-` (sin rutas).
 
 ## subjects.json
 
-Arreglo de materias (ver `src/core/curriculumPack.ts` y `assets/curriculum/cobaev-2026b-base.json`):
+Arreglo de materias. Puede ir vacío (`[]`) en un paquete que solo aporta documentos para el RAG: sus fragmentos se asocian por `subjectId` a materias ya instaladas, como las del currículo base. Formato (ver `src/core/curriculumPack.ts` y `assets/curriculum/cobaev-2026b-base.json`):
 
 ```json
 [{
@@ -54,4 +55,4 @@ Float32 little-endian, `count × dim` valores en el mismo orden que `chunks.json
 
 ## Construcción
 
-`tools/build_curriculum_pack.py` genera todo lo anterior desde una carpeta con `pack.json`, `subjects.json` y `docs/<id-materia>/*.txt|md|pdf`, usando la misma estrategia de fragmentación que la app.
+`tools/build_curriculum_pack.py` genera todo lo anterior desde una carpeta con `pack.json`, `subjects.json` y `docs/<id-materia>/*.txt|md|pdf`, usando la misma estrategia de fragmentación que la app. Si el paquete solo trae documentos, pon en `pack.json` `"linkedSubjects": "<ruta a subjects.json del currículo base>"`: así los nombres de `docs/<id-materia>` se validan contra esas materias. Ejemplo: `tools/sources/2026b/`.

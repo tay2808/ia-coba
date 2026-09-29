@@ -14,6 +14,11 @@ para que el teléfono no tenga que generarlos.
 
     pip install -r tools/requirements.txt
     python tools/build_curriculum_pack.py tools/examples/pack-ejemplo -o quimica-2026b.pack
+
+Un paquete puede traer solo documentos para el RAG: con "subjects.json" vacío ([])
+y "linkedSubjects" en pack.json (ruta, relativa a la carpeta, a un subjects.json ya
+instalado, p. ej. el currículo base) las carpetas docs/<materia> se comprueban
+contra esas materias y la app no duplica materias al importarlo.
 """
 from __future__ import annotations
 
@@ -103,7 +108,16 @@ def read_document(path: Path) -> str:
     raise ValueError(f"Formato no soportado: {path.name}")
 
 
-def validate_subjects(subjects: list[dict]) -> None:
+def semesters_for_version(version: str) -> set[int] | None:
+    """Igual que semestersForCurriculumVersion (src/core/curriculumPack.ts): ciclo B → impares, A → pares."""
+    m = re.fullmatch(r"\d{4}-([AB])", version.strip(), re.IGNORECASE)
+    if not m:
+        return None
+    return {1, 3, 5} if m.group(1).upper() == "B" else {2, 4, 6}
+
+
+def validate_subjects(subjects: list[dict], version: str | None = None) -> None:
+    allowed = semesters_for_version(version) if version else None
     ids = set()
     for i, s in enumerate(subjects, 1):
         for key in ("id", "name", "semester", "units"):
@@ -114,6 +128,8 @@ def validate_subjects(subjects: list[dict]) -> None:
         ids.add(s["id"])
         if not 1 <= int(s["semester"]) <= 6:
             raise SystemExit(f"subjects.json: '{s['id']}' tiene semestre fuera de 1-6")
+        if allowed and int(s["semester"]) not in allowed:
+            raise SystemExit(f"subjects.json: '{s['id']}' es de {s['semester']}.º semestre, que no se cursa en {version}")
         for q in s.get("quizzes", []):
             if not 0 <= q["answerIndex"] < len(q["options"]):
                 raise SystemExit(f"subjects.json: pregunta '{q.get('id')}' con answerIndex inválido")
@@ -128,8 +144,12 @@ def main() -> None:
 
     meta = json.loads((args.source / "pack.json").read_text(encoding="utf-8"))
     subjects = json.loads((args.source / "subjects.json").read_text(encoding="utf-8"))
-    validate_subjects(subjects)
+    validate_subjects(subjects, meta["curriculumVersion"])
     subject_ids = {s["id"] for s in subjects}
+    if meta.get("linkedSubjects"):
+        linked = json.loads((args.source / meta["linkedSubjects"]).read_text(encoding="utf-8"))
+        validate_subjects(linked, meta["curriculumVersion"])
+        subject_ids |= {s["id"] for s in linked}
 
     chunks: list[dict] = []
     docs_dir = args.source / "docs"

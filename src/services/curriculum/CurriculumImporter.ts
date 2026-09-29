@@ -6,7 +6,7 @@
  */
 import { Q } from '@nozbe/watermelondb';
 import { unzip } from 'react-native-zip-archive';
-import { RAG } from '../../config/constants';
+import { CURRICULUM_VERSION, RAG } from '../../config/constants';
 import {
   compareCurriculumVersions,
   parseChunksJsonl,
@@ -31,6 +31,8 @@ import { VectorStore } from '../rag/VectorStore';
 import baseCurriculum from '../../../assets/curriculum/cobaev-2026b-base.json';
 
 export const BASE_PACK_ID = 'cobaev-base';
+/** Cambia cuando cambia el contenido del currículo base: provoca su reinstalación. */
+export const BASE_PACK_NAME = 'Currículo base COBAEV 2026-B (1.º, 3.º y 5.º semestre)';
 
 export interface ImportSummary {
   manifest: PackManifest;
@@ -47,6 +49,10 @@ export type ImportProgress = (message: string, fraction?: number) => void;
 /** Escribe materias, quizzes y flashcards reemplazando los del mismo paquete. */
 async function writeSubjects(packId: string, subjects: SubjectData[]): Promise<{ quizzes: number; flashcards: number }> {
   const codes = subjects.map(s => s.id);
+  if (!codes.length) {
+    // Paquete solo con documentos para RAG: sus fragmentos apuntan a materias ya instaladas.
+    return { quizzes: 0, flashcards: 0 };
+  }
   const [oldSubjects, oldQuizzes, oldCards] = await Promise.all([
     collections.subjects.query(Q.where('pack_id', packId)).fetch(),
     collections.quizQuestions.query(Q.where('subject_code', Q.oneOf(codes)), Q.where('origin', 'pack')).fetch(),
@@ -138,21 +144,42 @@ async function upsertPackRecord(manifest: PackManifest, subjectCount: number, ch
   return previous;
 }
 
-/** Instala el currículo base incluido en la app (solo la primera vez). */
+/**
+ * Instala el currículo base incluido en la app la primera vez o cuando una
+ * actualización de la app trae una revisión distinta (se reemplazan sus materias
+ * y se conserva el progreso de las flashcards que no cambiaron).
+ */
 export async function installBaseCurriculumIfNeeded(): Promise<boolean> {
-  const count = await collections.packs.query(Q.where('pack_id', BASE_PACK_ID)).fetchCount();
-  if (count > 0) {
+  const [installed] = (await collections.packs.query(Q.where('pack_id', BASE_PACK_ID)).fetch()) as PackRecord[];
+  if (installed && installed.name === BASE_PACK_NAME && installed.curriculumVersion === CURRICULUM_VERSION) {
     return false;
   }
-  const subjects = validateSubjects(baseCurriculum);
+  if (installed) {
+    // Las materias retiradas del currículo base se eliminan junto con su contenido de paquete.
+    const keep = new Set((baseCurriculum as SubjectData[]).map(s => s.id));
+    const stale = ((await collections.subjects.query(Q.where('pack_id', BASE_PACK_ID)).fetch()) as Subject[]).filter(
+      s => !keep.has(s.code),
+    );
+    if (stale.length) {
+      const codes = stale.map(s => s.code);
+      const [quizzes, cards] = await Promise.all([
+        collections.quizQuestions.query(Q.where('subject_code', Q.oneOf(codes)), Q.where('origin', 'pack')).fetch(),
+        collections.flashcards.query(Q.where('subject_code', Q.oneOf(codes)), Q.where('origin', 'pack')).fetch(),
+      ]);
+      await database.write(async () => {
+        await database.batch(...[...stale, ...quizzes, ...cards].map(r => r.prepareDestroyPermanently()));
+      });
+    }
+  }
+  const subjects = validateSubjects(baseCurriculum, { curriculumVersion: CURRICULUM_VERSION });
   await writeSubjects(BASE_PACK_ID, subjects);
   await upsertPackRecord(
     {
       format: 'cobaev-pack',
       formatVersion: 1,
       id: BASE_PACK_ID,
-      name: 'Currículo base COBAEV',
-      curriculumVersion: '2026-B',
+      name: BASE_PACK_NAME,
+      curriculumVersion: CURRICULUM_VERSION,
       createdAt: new Date().toISOString(),
       files: { subjects: 'subjects.json' },
     },
@@ -175,7 +202,9 @@ export async function importPackFromFile(zipPath: string, onProgress?: ImportPro
     }
     const manifest = validateManifest(JSON.parse(await RNFS.readFile(manifestPath, 'utf8')));
     onProgress?.(`Validando "${manifest.name}" (${manifest.curriculumVersion})…`, 0.1);
-    const subjects = validateSubjects(JSON.parse(await RNFS.readFile(`${dir}/${manifest.files.subjects}`, 'utf8')));
+    const subjects = validateSubjects(JSON.parse(await RNFS.readFile(`${dir}/${manifest.files.subjects}`, 'utf8')), {
+      curriculumVersion: manifest.curriculumVersion,
+    });
 
     const [installed] = (await collections.packs.query(Q.where('pack_id', manifest.id)).fetch()) as PackRecord[];
     if (installed && compareCurriculumVersions(manifest.curriculumVersion, installed.curriculumVersion) < 0) {
